@@ -1,0 +1,369 @@
+name: sales
+tables:
+  - name: RETAIL_SALES
+    base_table:
+      database: CORTEX_AI_DB
+      schema: PUBLIC
+      table: RETAIL_SALES
+    dimensions:
+      - name: INVOICE_ID
+        expr: INVOICE_ID
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - INV01000
+          - INV01001
+          - INV01002
+        description: Unique identifier for each sales transaction.
+        synonyms:
+          - bill_number
+          - invoice_number
+          - order_id
+          - purchase_id
+          - receipt_number
+          - sales_invoice
+          - transaction_id
+      - name: STORE_ID
+        expr: STORE_ID
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - S002
+          - S001
+          - S003
+        description: Unique identifier for a retail store location.
+        synonyms:
+          - store_number
+          - outlet_id
+          - retail_location_id
+          - shop_id
+          - branch_id
+          - store_code
+      - name: STORE_LOCATION
+        expr: STORE_LOCATION
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Dallas
+          - Houston
+          - Austin
+        description: The city or location where the retail store is situated.
+        synonyms:
+          - store_address
+          - retail_location
+          - outlet_location
+          - shop_location
+          - warehouse_address
+          - store_site
+          - retail_store_address
+          - branch_location
+      - name: PRODUCT_NAME
+        expr: PRODUCT_NAME
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Refrigerator
+          - Blender
+          - Oven
+        description: The name of the product being sold, such as an appliance or electronic device.
+        synonyms:
+          - item_name
+          - product_title
+          - item_description
+          - product_description
+          - product_label
+          - item_label
+          - merchandise_name
+          - goods_name
+          - commodity_name
+          - article_name
+      - name: PROMOTION_APPLIED
+        expr: PROMOTION_APPLIED
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - STOREWIDE_10
+          - STOREWIDE_15
+        description: The type of promotion applied to the sale, either a 10% or 15% discount across all items in the store.
+        synonyms:
+          - discount_used
+          - promo_code_applied
+          - sale_applied
+          - offer_applied
+          - voucher_used
+          - coupon_applied
+      - name: PAYMENT_METHOD
+        expr: PAYMENT_METHOD
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Credit Card
+          - Debit Card
+          - Cash
+        description: The method used by the customer to pay for their purchase, such as credit card, debit card, or cash.
+        synonyms:
+          - payment_type
+          - payment_mode
+          - transaction_method
+          - payment_option
+          - payment_mode_used
+          - payment_channel
+          - payment_means
+      - name: DELIVERY_REQUESTED
+        expr: DELIVERY_REQUESTED
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - 'True'
+          - 'False'
+        description: Indicates whether the customer requested delivery of their purchase or opted for in-store pickup.
+        synonyms:
+          - delivery_required
+          - shipping_requested
+          - home_delivery
+          - delivery_needed
+          - pickup_not_required
+          - ship_to_customer
+      - name: SALESPERSON_ID
+        expr: SALESPERSON_ID
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - S002_SP04
+          - S002_SP10
+          - S001_SP05
+        description: Unique identifier for the salesperson who made the sale.
+        synonyms:
+          - sales_rep_id
+          - sales_agent_id
+          - salesperson_code
+          - sales_associate_id
+          - account_manager_id
+      - name: SALESPERSON_NAME
+        expr: SALESPERSON_NAME
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Mason Hill
+          - Alexander Carter
+          - Olivia Lewis
+        description: The name of the salesperson who made the sale.
+        synonyms:
+          - sales_representative
+          - sales_agent
+          - account_manager
+          - sales_consultant
+          - sales_associate
+          - representative_name
+      - name: ONLINE_OR_STORE
+        expr: ONLINE_OR_STORE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - STORE
+          - ONLINE
+        description: Indicates whether the sale was made through the company's online platform or in a physical store location.
+        synonyms:
+          - channel
+          - sales_channel
+          - purchase_location
+          - transaction_type
+          - store_or_online
+          - point_of_sale
+          - purchase_method
+          - sales_platform
+    time_dimensions:
+      - name: DATE
+        expr: DATE
+        data_type: DATE
+        sample_values:
+          - '2025-02-12'
+          - '2025-03-14'
+          - '2025-01-02'
+        description: Date of retail sales transaction.
+        synonyms:
+          - day
+          - calendar_date
+          - transaction_date
+          - sales_date
+          - date_of_sale
+          - calendar_day
+          - date_of_transaction
+      - name: TIME
+        expr: TIME
+        data_type: TIME(9)
+        sample_values:
+          - '20:00:00'
+          - '09:30:00'
+          - '17:00:00'
+        description: The time of day when a sale was made, in 24-hour format (HH:MM:SS).
+        synonyms:
+          - hour
+          - moment
+          - period
+          - duration
+          - instant
+          - clock_time
+          - time_of_day
+          - timestamp
+          - schedule_time
+    facts:
+      - name: QUANTITY
+        expr: QUANTITY
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '2'
+          - '1'
+          - '3'
+        description: The quantity of items sold in a single transaction.
+        synonyms:
+          - amount
+          - count
+          - volume
+          - number_of_items
+          - total_items
+          - item_count
+          - quantity_ordered
+          - units_sold
+      - name: UNIT_PRICE
+        expr: UNIT_PRICE
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '1747.40'
+          - '620.68'
+          - '1390.51'
+        description: The price of a single unit of a product sold.
+        synonyms:
+          - item_price
+          - price_per_unit
+          - unit_cost
+          - selling_price
+          - price_per_item
+          - base_price
+          - standard_price
+          - list_price
+      - name: ORIGINAL_RETAIL_PRICE
+        expr: ORIGINAL_RETAIL_PRICE
+        data_type: NUMBER(38,14)
+        sample_values:
+          - '3494.80000000000000'
+          - '620.68000000000000'
+          - '451.36000000000000'
+        description: The original price at which a product was sold in a retail setting, prior to any discounts or promotions.
+        synonyms:
+          - list_price
+          - sticker_price
+          - marked_price
+          - msrp
+          - recommended_retail_price
+          - base_price
+          - standard_price
+          - full_price
+      - name: RETAIL_PRICE_AFTER_DISCOUNT
+        expr: RETAIL_PRICE_AFTER_DISCOUNT
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '3494.80'
+          - '620.68'
+          - '1251.46'
+        description: The amount of money a customer paid for a product after any applicable discounts have been applied.
+        synonyms:
+          - discounted_retail_price
+          - sale_price
+          - final_retail_price
+          - price_after_discount
+          - discounted_price
+          - selling_price_after_discount
+      - name: COST_PRICE
+        expr: COST_PRICE
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '1533.41'
+          - '445.88'
+          - '316.92'
+        description: The cost price of the product, representing the amount the retailer paid to purchase the item from the supplier.
+        synonyms:
+          - unit_cost
+          - purchase_price
+          - wholesale_price
+          - base_price
+          - original_cost
+          - procurement_price
+          - acquisition_cost
+      - name: GROSS_MARGIN
+        expr: GROSS_MARGIN
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '213.99'
+          - '174.80'
+          - '134.44'
+        description: The amount of profit earned from the sale of a product, calculated as the difference between the selling price and the cost of goods sold, expressed as a dollar amount.
+        synonyms:
+          - gross_profit
+          - gross_profit_margin
+          - profit_margin
+          - markup
+          - gross_mark_up
+          - gross_profit_percentage
+      - name: UNIT_SELLING_PRICE_AFTER_DISCOUNT
+        expr: UNIT_SELLING_PRICE_AFTER_DISCOUNT
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '1747.40'
+          - '620.68'
+          - '1251.46'
+        description: The price at which a product was sold to a customer after any applicable discounts have been applied.
+        synonyms:
+          - discounted_unit_price
+          - unit_price_after_discount
+          - selling_price_per_unit_after_discount
+          - discounted_selling_price
+          - unit_revenue_after_discount
+      - name: PROFIT_PER_UNIT
+        expr: PROFIT_PER_UNIT
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '213.99'
+          - '174.80'
+          - '134.44'
+        description: The profit earned by the retailer for each unit of a product sold, calculated as the difference between the selling price and the cost of the product.
+        synonyms:
+          - unit_profit
+          - profit_per_item
+          - earnings_per_unit
+          - unit_margin
+          - per_unit_gain
+          - unit_income
+      - name: TOTAL_PROFIT
+        expr: TOTAL_PROFIT
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '427.98'
+          - '174.80'
+          - '134.44'
+        description: The total profit earned from each retail sale, representing the difference between the sale price and the cost of goods sold.
+        synonyms:
+          - total_revenue
+          - overall_profit
+          - net_profit
+          - total_gain
+          - total_earnings
+          - total_income
+          - profit_total
+          - total_return
+verified_queries:
+  - name: Total profit for stores in Houston
+    question: What is the total profit for stores located in Houston?
+    use_as_onboarding_question: false
+    sql: SELECT MIN(date) AS start_date, MAX(date) AS end_date, SUM(total_profit) AS total_profit FROM retail_sales WHERE store_location = 'Houston'
+    verified_by: stAnalytics Dashboard
+    verified_at: 1744009773
+  - name: Most sold product
+    question: Which product was sold the most?
+    use_as_onboarding_question: false
+    sql: SELECT product_name, MIN(date) AS start_date, MAX(date) AS end_date, SUM(quantity) AS total_quantity FROM retail_sales GROUP BY product_name ORDER BY total_quantity DESC NULLS LAST LIMIT 1
+    verified_by: stAnalytics Dashboard
+    verified_at: 1744011918
+  - name: Store with least sales
+    question: Which store made the least sales?
+    use_as_onboarding_question: false
+    sql: SELECT store_id, MIN(date) AS start_date, MAX(date) AS end_date, SUM(total_profit) AS total_profit FROM retail_sales WHERE ONLINE_OR_STORE = 'STORE' GROUP BY store_id ORDER BY total_profit ASC LIMIT 1
+    verified_by: stAnalytics Dashboard
+    verified_at: 1744087426
+  - name: Which city generated the highest total profit in January 2025?
+    question: Which city generated the highest total profit in January 2025?
+    use_as_onboarding_question: false
+    sql: SELECT store_location, SUM(total_profit) AS total_profit FROM retail_sales WHERE DATE_TRUNC('MONTH', date) = '2025-01-01' AND ONLINE_OR_STORE = 'STORE' GROUP BY store_location ORDER BY total_profit DESC NULLS LAST LIMIT 1
+    verified_by: stAnalytics Dashboard
+    verified_at: 1744088022
+custom_instructions: Display percentage metrics with % symbol with one decimal place

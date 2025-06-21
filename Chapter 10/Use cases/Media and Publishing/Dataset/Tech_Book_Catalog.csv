@@ -1,0 +1,11 @@
+BOOK_ID,TITLE,BOOK_DESCRIPTION,LIKES,REVIEWS,CREATED_TIMESTAMP,LAST_MODIFIED_TIMESTAMP
+1,Python Deep Learning Guide,Discover how Python powers modern NLP systems and chatbots.,245,33,2025-04-11 03:00:00.000,2025-04-20 11:00:00.000
+2,AI for Beginners,A comprehensive introduction to AI fundamentals,123,92,2025-04-23 22:00:00.000,2025-04-28 00:00:00.000
+3,Mastering AI,"Exploration of advanced AI concepts, tools, and real-world applications",285,59,2025-04-20 11:00:00.000,2025-04-26 23:00:00.000
+4,Python for Data Science,Learn how to implement AI models using Python in real-world scenarios.,836,79,2025-04-22 15:00:00.000,2025-04-25 06:00:00.000
+5,The Future of Artificial Intelligence,Explore current trends and future scenarios of AI in the real world.,472,62,2025-04-20 11:00:00.000,2025-04-26 18:00:00.000
+6,Data Engineering with Spark,A hands-on guide to building data pipelines with Apache Spark.,694,25,2025-03-07 03:00:00.000,2025-03-10 01:00:00.000
+7,Natural Language Processing Explained,"Understand NLP algorithms, applications, and real-world use cases.",182,61,2025-04-12 01:00:00.000,2025-04-17 00:00:00.000
+8,Applied AI for Developers,"Provides practical guidance on building real-world AI solutions, bridging the gap between algorithms and deployable applications",759,40,2025-02-05 08:00:00.000,2025-02-13 02:00:00.000
+9,Neural Networks in Practice,Implement and optimize neural network architectures for real tasks.,582,95,2025-02-27 01:00:00.000,2025-03-06 11:00:00.000
+10,Java for AI and Automation,Use Java to build automated and AI-driven solutions for enterprise environments.,280,100,2025-03-09 14:00:00.000,2025-03-15 20:00:00.000

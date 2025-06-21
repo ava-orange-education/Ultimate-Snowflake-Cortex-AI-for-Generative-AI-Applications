@@ -1,0 +1,106 @@
+-- Execute these steps one after the other
+----- creating a stage for document uploads
+CREATE or REPLACE STAGE SEARCH_DOCS ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') DIRECTORY = ( ENABLE = true );
+
+-- Upload the documents to stage
+-----
+
+ls @search_docs;
+
+-- breaking down the pdf contents and storing as chunked string sets
+CREATE OR REPLACE FUNCTION text_chunker(pdf_text string)
+returns table (chunk varchar)
+language python
+runtime_version = '3.9'
+handler = 'text_chunker'
+packages = ('snowflake-snowpark-python', 'langchain')
+as
+$$
+from snowflake.snowpark.types import StringType, StructField, StructType
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+import pandas as pd
+
+class text_chunker:
+
+    def process(self, pdf_text: str):
+        
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size = 1512, 
+            chunk_overlap  = 256, 
+            length_function = len
+        )
+    
+        chunks = text_splitter.split_text(pdf_text)
+        df = pd.DataFrame(chunks, columns=['chunks'])
+        
+        yield from df.itertuples(index=False, name=None)
+$$;
+
+-----Create the table where we are going to store the chunks for the PDF.
+
+CREATE OR REPLACE TABLE DOCS_CHUNKS_TABLE ( 
+    RELATIVE_PATH VARCHAR(16777216),
+    SIZE NUMBER(38,0),
+    FILE_URL VARCHAR(16777216), 
+    SCOPED_FILE_URL VARCHAR(16777216), 
+    CHUNK VARCHAR(16777216), 
+    CATEGORY VARCHAR(16777216) 
+);
+
+----- Function SNOWFLAKE.CORTEX.PARSE_DOCUMENT will be used to read the PDF documents directly from the staging area. The text will be passed to the function previously created to split the text into chunks. There is no need to create embeddings as that will be managed automatically by Cortex Search service later.
+
+INSERT INTO docs_chunks_table (relative_path, size, file_url,
+                            scoped_file_url, chunk)
+
+    SELECT relative_path, 
+            size,
+            file_url, 
+            build_scoped_file_url(@search_docs, relative_path) as scoped_file_url,
+            func.chunk as chunk
+    FROM 
+        directory(@search_docs),
+        TABLE(text_chunker (TO_VARCHAR(SNOWFLAKE.CORTEX.PARSE_DOCUMENT(@search_docs, relative_path, {'mode': 'LAYOUT'})))) as func;
+
+select * from docs_chunks_table;
+
+--- determine specific category to each respective chunked row depending the main dcument's domain / category
+
+CREATE OR REPLACE TEMPORARY TABLE docs_categories AS WITH unique_documents AS (
+  SELECT DISTINCT relative_path  FROM docs_chunks_table
+),
+docs_category_cte AS (
+  SELECT relative_path,
+    TRIM(snowflake.cortex.COMPLETE (
+      'snowflake-arctic',
+      'Given the name of the file between <file> and </file> determine if it is Customer Support, Billing, Tech Support etc.  Use max one or two words only. <file> ' || relative_path || '</file>'
+    ), '\n') AS category
+  FROM unique_documents
+)
+SELECT
+  *
+FROM
+  docs_category_cte;
+
+--- update the above created categories to the main document chunk table
+UPDATE docs_chunks_table 
+  SET category = docs_categories.category
+  FROM docs_categories
+  WHERE  docs_chunks_table.relative_path = docs_categories.relative_path;
+
+-- select * from docs_categories;
+select * from docs_chunks_table;
+
+--- Create cortex search to enable search across all the chunks with respect to their category
+
+CREATE or REPLACE CORTEX SEARCH SERVICE ZENTIME_CUSTOMER_SUPPORT_SERVICE
+ON chunk
+ATTRIBUTES category
+warehouse = COMPUTE_WH
+TARGET_LAG = '1 minute'
+as (
+    select chunk,
+        relative_path,
+        file_url,
+        category
+    from docs_chunks_table
+);

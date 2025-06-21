@@ -1,0 +1,40 @@
+-- USE DATABASE
+USE DATABASE CORTEX_AI_DB;
+
+SELECT * FROM LOGIN_ANOMALY;
+
+ -- CREATE TRAIN DATA AND TEST DATA
+CREATE OR REPLACE TABLE ANOMALY_TRAIN AS
+SELECT * FROM LOGIN_ANOMALY WHERE LOGIN_TIME <= '2024-01-19 07:00:00.000';
+
+CREATE OR REPLACE TABLE ANOMALY_TEST AS
+SELECT * FROM LOGIN_ANOMALY WHERE LOGIN_TIME > '2024-01-19 07:00:00.000';
+
+-----------------------------------------------------------
+-- CREATE PREDICTIONS
+-----------------------------------------------------------
+-- Create your model.
+CREATE OR REPLACE SNOWFLAKE.ML.ANOMALY_DETECTION LOGIN_ANOMALY_DETECTION(
+    INPUT_DATA => SYSTEM$REFERENCE('TABLE', 'ANOMALY_TRAIN'),
+    TIMESTAMP_COLNAME => 'LOGIN_TIME',
+    TARGET_COLNAME => 'LOGIN_COUNT',
+    LABEL_COLNAME => ''
+);
+
+-- Generate predictions and store the results to a table.
+BEGIN
+    -- This is the step that creates predictions.
+    CALL LOGIN_ANOMALY_DETECTION!DETECT_ANOMALIES(
+        INPUT_DATA => SYSTEM$REFERENCE('TABLE', 'ANOMALY_TEST'),
+        TIMESTAMP_COLNAME =>'LOGIN_TIME',
+        TARGET_COLNAME => 'LOGIN_COUNT',
+        -- Here we set your prediction interval.
+        CONFIG_OBJECT => {'prediction_interval': 0.95}
+    );
+    -- These steps store predictions to a table.
+    LET x := SQLID;
+    CREATE OR REPLACE TABLE LOGIN_ANOMALY_DETECTION_RESULTS AS SELECT * FROM TABLE(RESULT_SCAN(:x));
+END;
+
+-- View predictions.
+SELECT TS,Y,IS_ANOMALY FROM LOGIN_ANOMALY_DETECTION_RESULTS;

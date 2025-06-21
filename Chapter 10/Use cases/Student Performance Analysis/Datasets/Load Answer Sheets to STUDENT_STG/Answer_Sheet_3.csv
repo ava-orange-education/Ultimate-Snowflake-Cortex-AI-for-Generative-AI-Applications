@@ -1,0 +1,31 @@
+Roll_Number,Name,Question_Number,Selected_Option,Category
+S1003,Charlie,1,A,Mathematics
+S1003,Charlie,2,B,Mathematics
+S1003,Charlie,3,A,Mathematics
+S1003,Charlie,4,B,Mathematics
+S1003,Charlie,5,C,Mathematics
+S1003,Charlie,6,A,Physics
+S1003,Charlie,7,D,Physics
+S1003,Charlie,8,B,Physics
+S1003,Charlie,9,D,Physics
+S1003,Charlie,10,D,Physics
+S1003,Charlie,11,D,Chemistry
+S1003,Charlie,12,C,Chemistry
+S1003,Charlie,13,B,Chemistry
+S1003,Charlie,14,A,Chemistry
+S1003,Charlie,15,D,Chemistry
+S1003,Charlie,16,D,Technology
+S1003,Charlie,17,A,Technology
+S1003,Charlie,18,B,Technology
+S1003,Charlie,19,C,Technology
+S1003,Charlie,20,A,Technology
+S1003,Charlie,21,B,Literature
+S1003,Charlie,22,C,Literature
+S1003,Charlie,23,D,Literature
+S1003,Charlie,24,A,Literature
+S1003,Charlie,25,B,Literature
+S1003,Charlie,26,C,General Aptitude
+S1003,Charlie,27,A,General Aptitude
+S1003,Charlie,28,A,General Aptitude
+S1003,Charlie,29,B,General Aptitude
+S1003,Charlie,30,C,General Aptitude

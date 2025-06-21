@@ -1,0 +1,3 @@
+USE DATABASE CORTEX_AI_DB;
+--Create stage if it does not already exist.
+CREATE STAGE CORTEX_AI_STG ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') DIRECTORY = ( ENABLE = true );

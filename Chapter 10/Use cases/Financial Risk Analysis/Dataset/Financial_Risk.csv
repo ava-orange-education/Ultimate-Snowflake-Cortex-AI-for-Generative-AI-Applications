@@ -1,0 +1,101 @@
+customer_id,annual_income,debt_to_income_ratio,credit_score,num_open_credit_lines,loan_amount_requested,loan_purpose,employment_status,bankruptcy_history,late_payments_last_year,age,residence_status,existing_loans,risk_flag
+50000,88991,72.0,499,2,39732,Medical Bills,Self-employed,0,8,27,Renting,3,High
+50001,41924,64.3,575,4,42041,Medical Bills,Unemployed,1,6,36,Renting,6,High
+50002,41475,60.6,569,3,18348,Home Repair,Self-employed,0,8,32,Owning,5,High
+50003,104491,55.2,587,2,23619,Home Repair,Unemployed,0,6,33,Renting,3,High
+50004,33722,55.1,587,1,15360,Home Repair,Self-employed,1,8,23,Owning,3,High
+50005,83043,50.9,528,1,21983,Debt Consolidation,Self-employed,0,6,38,Owning,5,High
+50006,114223,61.6,577,2,42308,Home Repair,Self-employed,1,7,28,Renting,4,High
+50007,90949,55.0,516,1,42853,Medical Bills,Self-employed,1,8,36,Renting,4,High
+50008,31901,74.0,487,2,43915,Medical Bills,Self-employed,1,7,30,Owning,3,High
+50009,37604,66.4,585,2,37222,Debt Consolidation,Self-employed,0,5,47,Renting,3,High
+50010,31610,65.4,512,2,39623,Medical Bills,Unemployed,1,6,30,Renting,6,High
+50011,94362,70.9,587,1,42850,Medical Bills,Unemployed,1,6,32,Renting,3,High
+50012,97720,61.4,586,3,30089,Home Repair,Unemployed,1,3,32,Renting,3,High
+50013,81613,66.7,488,4,34280,Home Repair,Unemployed,0,5,46,Renting,5,High
+50014,28396,72.5,564,2,48488,Medical Bills,Self-employed,1,6,42,Renting,4,High
+50015,129126,52.4,572,2,37839,Home Repair,Self-employed,0,7,40,Renting,5,High
+50016,122006,67.0,565,1,49980,Home Repair,Self-employed,0,7,31,Renting,5,High
+50017,101786,59.8,469,1,20471,Home Repair,Unemployed,0,6,24,Renting,3,High
+50018,21374,57.5,551,3,27146,Medical Bills,Self-employed,0,6,45,Renting,4,High
+50019,44889,51.4,508,1,41318,Home Repair,Self-employed,1,6,35,Owning,4,High
+50020,85752,62.8,498,2,37208,Debt Consolidation,Self-employed,0,4,39,Owning,3,High
+50021,37256,56.1,475,1,38562,Home Repair,Unemployed,0,7,47,Renting,4,High
+50022,44748,55.8,571,4,42888,Home Repair,Self-employed,0,6,36,Renting,6,High
+50023,40713,56.5,569,3,27255,Medical Bills,Self-employed,1,7,46,Renting,3,High
+50024,35998,69.8,470,4,16945,Home Repair,Unemployed,0,4,32,Renting,5,High
+50025,102725,67.3,598,3,45252,Debt Consolidation,Unemployed,1,5,44,Owning,4,High
+50026,41854,72.7,502,1,44998,Medical Bills,Unemployed,1,7,30,Renting,3,High
+50027,38015,74.7,561,2,17901,Debt Consolidation,Unemployed,0,4,44,Renting,3,High
+50028,27795,63.2,557,2,39550,Medical Bills,Unemployed,1,6,33,Renting,5,High
+50029,32316,65.3,475,3,38163,Debt Consolidation,Self-employed,0,4,23,Renting,6,High
+50030,122962,65.0,451,1,27157,Debt Consolidation,Self-employed,0,5,39,Renting,5,High
+50031,99490,54.2,468,3,41243,Home Repair,Self-employed,1,8,28,Owning,3,High
+50032,128372,74.0,524,1,30886,Home Repair,Self-employed,1,8,42,Renting,5,High
+50033,25898,67.2,500,4,31981,Medical Bills,Self-employed,1,4,31,Renting,6,High
+50034,89591,63.9,527,3,42864,Home Repair,Self-employed,0,6,41,Renting,3,High
+50035,27650,71.9,491,4,28475,Home Repair,Unemployed,0,3,37,Owning,5,High
+50036,112012,50.3,481,2,26829,Home Repair,Self-employed,1,8,24,Renting,6,High
+50037,24231,58.4,478,4,36105,Debt Consolidation,Self-employed,0,6,30,Renting,6,High
+50038,125779,59.2,478,1,44645,Home Repair,Unemployed,0,7,29,Owning,6,High
+50039,38016,72.1,591,1,17056,Home Repair,Self-employed,0,4,43,Owning,3,High
+50040,39793,58.4,535,2,19324,Medical Bills,Unemployed,1,3,39,Owning,6,High
+50041,105293,63.1,522,1,40645,Medical Bills,Self-employed,0,7,45,Owning,3,High
+50042,43809,67.7,502,2,30841,Home Repair,Self-employed,1,6,41,Renting,6,High
+50043,86334,74.5,505,3,29601,Medical Bills,Unemployed,0,6,33,Renting,4,High
+50044,24066,67.0,544,2,29239,Home Repair,Self-employed,1,4,44,Renting,6,High
+50045,127242,73.7,532,4,35092,Medical Bills,Unemployed,0,5,25,Renting,5,High
+50046,99698,52.0,516,4,40230,Home Repair,Self-employed,1,6,30,Renting,5,High
+50047,97808,71.2,506,2,34548,Medical Bills,Unemployed,0,6,34,Owning,5,High
+50048,22661,67.2,586,3,24042,Debt Consolidation,Self-employed,1,5,45,Owning,3,High
+50049,31957,61.7,472,1,28991,Home Repair,Self-employed,1,3,42,Renting,3,High
+50050,130753,5.4,821,10,5426,Education,Employed,0,0,63,Owning,0,Low
+50051,105987,6.8,813,5,11662,Home Improvement,Employed,0,0,36,Renting,2,Low
+50052,80970,19.2,721,6,13950,Education,Employed,0,0,51,Owning,2,Low
+50053,117154,21.5,747,5,13730,Investment,Employed,0,0,38,Renting,1,Low
+50054,25670,24.9,791,7,8984,Investment,Employed,0,0,49,Owning,1,Low
+50055,72198,5.1,850,5,6690,Home Improvement,Employed,0,0,65,Renting,0,Low
+50056,43467,6.4,818,6,9591,Investment,Employed,0,0,61,Owning,0,Low
+50057,103230,9.6,760,6,10386,Education,Employed,0,0,54,Renting,0,Low
+50058,26768,24.5,767,9,9356,Investment,Employed,0,0,37,Owning,0,Low
+50059,119958,28.7,767,6,13112,Investment,Employed,0,0,59,Owning,0,Low
+50060,33748,17.2,752,6,14955,Investment,Employed,0,0,46,Renting,0,Low
+50061,123605,20.7,736,6,8057,Home Improvement,Employed,0,0,57,Owning,1,Low
+50062,40415,22.8,793,6,10790,Education,Employed,0,0,31,Renting,0,Low
+50063,110486,24.5,752,5,9224,Education,Employed,0,0,53,Owning,1,Low
+50064,127121,17.8,777,7,7466,Education,Employed,0,0,60,Owning,2,Low
+50065,130997,28.1,797,8,4007,Investment,Employed,0,0,44,Owning,1,Low
+50066,89569,6.0,745,8,3678,Investment,Employed,0,0,59,Owning,2,Low
+50067,34308,18.4,816,10,7451,Home Improvement,Employed,0,0,34,Renting,0,Low
+50068,33568,28.2,818,9,14914,Home Improvement,Employed,0,0,58,Renting,1,Low
+50069,111358,28.2,775,9,6547,Home Improvement,Employed,0,0,38,Owning,0,Low
+50070,110790,11.3,743,6,7837,Investment,Employed,0,0,64,Owning,2,Low
+50071,142377,19.8,836,10,9097,Education,Employed,0,0,61,Owning,2,Low
+50072,39480,11.2,772,9,12914,Investment,Employed,0,0,54,Renting,0,Low
+50073,35908,11.8,740,10,8078,Education,Employed,0,0,35,Owning,0,Low
+50074,34803,16.7,752,7,5077,Home Improvement,Employed,0,0,46,Renting,2,Low
+50075,35430,25.2,803,9,10095,Home Improvement,Employed,0,0,64,Owning,2,Low
+50076,34441,13.5,800,6,3719,Investment,Employed,0,0,54,Owning,0,Low
+50077,29479,9.6,766,6,11338,Education,Employed,0,0,37,Owning,2,Low
+50078,38747,26.9,806,6,3482,Home Improvement,Employed,0,0,32,Owning,2,Low
+50079,80218,6.2,771,8,9333,Home Improvement,Employed,0,0,52,Owning,2,Low
+50080,74872,25.1,785,10,4330,Education,Employed,0,0,55,Owning,1,Low
+50081,110586,25.4,738,8,4490,Home Improvement,Employed,0,0,41,Renting,1,Low
+50082,26906,17.5,821,8,8360,Home Improvement,Employed,0,0,62,Owning,1,Low
+50083,32342,7.4,723,5,6228,Investment,Employed,0,0,49,Owning,0,Low
+50084,27081,8.1,766,9,3896,Investment,Employed,0,0,38,Owning,0,Low
+50085,27533,27.1,800,6,4893,Investment,Employed,0,0,53,Owning,2,Low
+50086,134504,28.1,783,5,6599,Home Improvement,Employed,0,0,35,Renting,0,Low
+50087,25313,9.7,763,7,5461,Investment,Employed,0,0,53,Renting,0,Low
+50088,37635,23.2,747,5,9743,Education,Employed,0,0,46,Owning,0,Low
+50089,140616,12.5,845,10,13049,Investment,Employed,0,0,41,Renting,0,Low
+50090,95224,22.1,793,6,11867,Investment,Employed,0,0,65,Owning,1,Low
+50091,31893,10.7,775,6,10746,Education,Employed,0,0,38,Owning,0,Low
+50092,102730,14.6,831,8,9150,Investment,Employed,0,0,31,Owning,1,Low
+50093,103259,25.9,772,10,11556,Investment,Employed,0,0,42,Owning,2,Low
+50094,124228,10.9,804,7,11557,Investment,Employed,0,0,43,Owning,2,Low
+50095,113442,26.7,842,6,12754,Education,Employed,0,0,53,Owning,0,Low
+50096,134597,6.0,727,8,13542,Investment,Employed,0,0,32,Owning,0,Low
+50097,117640,26.4,776,7,13019,Investment,Employed,0,0,59,Owning,2,Low
+50098,110818,8.1,810,6,10659,Education,Employed,0,0,46,Owning,0,Low
+50099,41444,28.7,800,5,12905,Education,Employed,0,0,64,Renting,0,Low

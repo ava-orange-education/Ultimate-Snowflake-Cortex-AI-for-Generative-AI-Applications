@@ -1,0 +1,2 @@
+-- import these packages in the streamlit app using the Packages-> Find Packages option
+pandas

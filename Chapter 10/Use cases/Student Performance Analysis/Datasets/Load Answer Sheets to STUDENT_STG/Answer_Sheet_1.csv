@@ -1,0 +1,31 @@
+Roll_Number,Name,Question_Number,Selected_Option,Category
+S1001,Alice,1,B,Mathematics
+S1001,Alice,2,C,Mathematics
+S1001,Alice,3,B,Mathematics
+S1001,Alice,4,B,Mathematics
+S1001,Alice,5,C,Mathematics
+S1001,Alice,6,B,Physics
+S1001,Alice,7,C,Physics
+S1001,Alice,8,A,Physics
+S1001,Alice,9,B,Physics
+S1001,Alice,10,B,Physics
+S1001,Alice,11,A,Chemistry
+S1001,Alice,12,B,Chemistry
+S1001,Alice,13,C,Chemistry
+S1001,Alice,14,A,Chemistry
+S1001,Alice,15,A,Chemistry
+S1001,Alice,16,C,Technology
+S1001,Alice,17,B,Technology
+S1001,Alice,18,B,Technology
+S1001,Alice,19,A,Technology
+S1001,Alice,20,A,Technology
+S1001,Alice,21,B,Literature
+S1001,Alice,22,A,Literature
+S1001,Alice,23,A,Literature
+S1001,Alice,24,B,Literature
+S1001,Alice,25,D,Literature
+S1001,Alice,26,C,General Aptitude
+S1001,Alice,27,D,General Aptitude
+S1001,Alice,28,D,General Aptitude
+S1001,Alice,29,A,General Aptitude
+S1001,Alice,30,B,General Aptitude

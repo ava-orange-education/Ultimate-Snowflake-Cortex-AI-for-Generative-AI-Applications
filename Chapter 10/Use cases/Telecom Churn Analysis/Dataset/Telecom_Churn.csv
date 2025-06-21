@@ -1,0 +1,101 @@
+customer_id,tenure_months,monthly_charges,total_charges,contract_type,payment_method,has_paperless_billing,is_senior_citizen,data_usage_gb,streaming_usage_level,num_services,support_calls_last_3_months,num_complaints_last_6_months,service_downtime_last_30_days,avg_internet_speed_mbps,recent_issue_summary,churn_flag
+60000,1,79.3,95.14,Month-to-month,Electronic Check,1,1,16.7,Low,2,3,3,2,10.4,Frequent disconnections,Churn
+60001,4,81.56,332.12,Month-to-month,Electronic Check,1,1,18.2,Low,3,5,3,4,13.1,Escalation needed to resolve issue,Churn
+60002,4,71.37,295.5,Month-to-month,Electronic Check,1,1,16.8,Low,1,3,3,2,20.5,Slow internet,Churn
+60003,4,87.26,349.75,Month-to-month,Mailed Check,1,1,12.7,High,1,4,2,4,5.8,Frequent disconnections,Churn
+60004,4,112.54,450.63,Month-to-month,Mailed Check,1,1,12.8,High,1,4,2,4,7,Billing dispute,Churn
+60005,1,111.92,121.97,Month-to-month,Mailed Check,1,0,17.5,Low,2,5,2,3,18.1,Slow internet,Churn
+60006,5,81.62,428.05,Month-to-month,Mailed Check,1,1,18.7,High,1,3,2,2,20.5,Frequent disconnections,Churn
+60007,5,93.64,486.77,Month-to-month,Mailed Check,1,0,5.4,Low,1,5,2,2,15.3,Slow internet,Churn
+60008,3,112.77,343.98,Month-to-month,Mailed Check,1,0,5.1,High,1,3,2,4,15.8,Billing dispute,Churn
+60009,6,112.67,679.62,Month-to-month,Electronic Check,1,1,3,Low,3,3,2,3,23.7,Escalation needed to resolve issue,Churn
+60010,5,86.18,441.45,Month-to-month,Mailed Check,1,0,5.2,High,2,5,3,2,27,Slow internet,Churn
+60011,5,98.62,511.54,Month-to-month,Mailed Check,1,1,18.1,Low,3,6,3,3,9.8,Escalation needed to resolve issue,Churn
+60012,4,84.24,355.15,Month-to-month,Electronic Check,1,1,16.3,Low,3,5,3,2,22.5,Slow internet,Churn
+60013,4,71.35,287.85,Month-to-month,Mailed Check,1,1,5.1,High,1,5,2,2,24.9,Escalation needed to resolve issue,Churn
+60014,5,117.92,605.23,Month-to-month,Electronic Check,1,1,19.9,Low,2,5,2,3,8.4,Slow internet,Churn
+60015,4,91.11,384.3,Month-to-month,Electronic Check,1,1,20,High,3,5,3,4,28.3,Billing dispute,Churn
+60016,2,91.13,200.49,Month-to-month,Electronic Check,1,1,11.6,High,3,6,2,4,17.1,Escalation needed to resolve issue,Churn
+60017,4,77.27,312.55,Month-to-month,Mailed Check,1,0,18.3,High,1,6,3,4,25.4,Billing dispute,Churn
+60018,3,118.82,357.21,Month-to-month,Electronic Check,1,0,10.1,Low,3,5,2,3,10.1,Billing dispute,Churn
+60019,6,109.77,666.18,Month-to-month,Mailed Check,1,0,3.9,Low,1,5,3,4,8.8,Frequent disconnections,Churn
+60020,2,102.33,210.75,Month-to-month,Electronic Check,1,1,16.7,High,2,5,3,2,19.6,Escalation needed to resolve issue,Churn
+60021,4,70.68,291.83,Month-to-month,Electronic Check,1,0,12.3,Low,2,5,2,3,20.3,Frequent disconnections,Churn
+60022,1,90.98,109.9,Month-to-month,Mailed Check,1,1,17.2,Low,1,6,2,4,14.3,Slow internet,Churn
+60023,5,116.15,600.4,Month-to-month,Electronic Check,1,0,15.1,High,3,6,2,3,23.9,Frequent disconnections,Churn
+60024,2,118.52,254.73,Month-to-month,Mailed Check,1,0,18.7,Low,2,3,2,2,16.1,Frequent disconnections,Churn
+60025,2,112.75,230.96,Month-to-month,Mailed Check,1,1,9.3,High,3,6,2,2,25.2,Escalation needed to resolve issue,Churn
+60026,3,95.97,289.89,Month-to-month,Electronic Check,1,1,19.5,High,1,5,2,2,29.4,Frequent disconnections,Churn
+60027,4,91.74,374.28,Month-to-month,Mailed Check,1,0,17.7,High,1,6,2,2,17.5,Escalation needed to resolve issue,Churn
+60028,2,90.03,185.79,Month-to-month,Electronic Check,1,1,3.3,Low,3,3,2,4,6,Billing dispute,Churn
+60029,5,88.74,461.63,Month-to-month,Electronic Check,1,0,16.9,High,2,3,3,4,24.2,Escalation needed to resolve issue,Churn
+60030,2,81.91,167.48,Month-to-month,Electronic Check,1,0,2.2,Low,3,3,3,4,17,Frequent disconnections,Churn
+60031,2,78.73,170.73,Month-to-month,Electronic Check,1,1,5,High,1,6,3,4,18.4,Billing dispute,Churn
+60032,4,87.43,350.31,Month-to-month,Mailed Check,1,1,19.3,Low,2,3,2,4,23.7,Slow internet,Churn
+60033,1,115.88,122.06,Month-to-month,Mailed Check,1,1,7.2,High,2,4,3,4,28.2,Slow internet,Churn
+60034,1,117.86,119.96,Month-to-month,Electronic Check,1,1,10.2,High,3,4,3,4,19.8,Frequent disconnections,Churn
+60035,1,111.25,116.27,Month-to-month,Mailed Check,1,0,6.7,Low,2,5,2,4,24.3,Billing dispute,Churn
+60036,3,109.58,330.95,Month-to-month,Mailed Check,1,0,15.3,High,1,6,2,3,13.8,Frequent disconnections,Churn
+60037,1,73.06,79.11,Month-to-month,Electronic Check,1,0,13.5,Low,1,5,3,3,27.6,Slow internet,Churn
+60038,6,95.16,583.98,Month-to-month,Electronic Check,1,1,18.6,Low,1,6,3,2,5.1,Frequent disconnections,Churn
+60039,1,75.21,89.18,Month-to-month,Mailed Check,1,1,6.7,High,1,4,3,2,5.1,Slow internet,Churn
+60040,2,86.18,178.68,Month-to-month,Mailed Check,1,0,9.5,High,3,3,2,3,5.3,Billing dispute,Churn
+60041,2,102.1,206.74,Month-to-month,Mailed Check,1,0,13.5,Low,2,4,3,3,11.9,Frequent disconnections,Churn
+60042,4,88.05,356.62,Month-to-month,Electronic Check,1,1,18,High,1,5,2,2,11.3,Escalation needed to resolve issue,Churn
+60043,5,77.41,399.73,Month-to-month,Electronic Check,1,0,3.6,High,2,4,2,4,27.7,Escalation needed to resolve issue,Churn
+60044,5,95.62,488.15,Month-to-month,Electronic Check,1,1,8.6,High,1,6,2,4,8.3,Escalation needed to resolve issue,Churn
+60045,2,106.07,220.27,Month-to-month,Electronic Check,1,0,7.6,High,3,4,2,4,14.5,Escalation needed to resolve issue,Churn
+60046,6,111.36,670.27,Month-to-month,Electronic Check,1,0,14.1,Low,3,4,3,3,13.8,Escalation needed to resolve issue,Churn
+60047,5,107.63,538.18,Month-to-month,Electronic Check,1,1,14.3,High,1,6,3,4,27,Billing dispute,Churn
+60048,4,83.06,342.69,Month-to-month,Electronic Check,1,1,15.6,Low,2,4,3,4,13,Billing dispute,Churn
+60049,1,84.28,87.1,Month-to-month,Electronic Check,1,1,11.7,High,1,4,2,3,7.3,Escalation needed to resolve issue,Churn
+60050,56,45.68,2566.01,One year,Credit Card,1,0,47.7,High,4,0,0,0,7.3,Brief internet outage,No-Churn
+60051,68,53.21,3622.87,One year,Credit Card,0,0,29.9,Medium,3,1,0,0,7.3,Resolved billing inquiry,No-Churn
+60052,60,57.28,3441.56,Two year,Bank Transfer,1,0,50.7,High,3,0,0,0,7.3,Brief internet outage,No-Churn
+60053,26,56.55,1487.01,One year,Credit Card,1,0,52.6,Medium,5,1,0,0,7.3,"Speed drop last month, resolved",No-Churn
+60054,62,53.1,3302.1,One year,Bank Transfer,0,0,36.3,Medium,5,0,0,0,7.3,Minor billing clarification,No-Churn
+60055,24,56.15,1362.98,One year,Bank Transfer,1,0,61.4,Medium,5,0,0,0,7.3,App login glitch,No-Churn
+60056,48,32.9,1595.76,Two year,Credit Card,1,0,91.1,Medium,5,1,0,0,7.3,Brief internet outage,No-Churn
+60057,42,46.62,1967.48,Two year,Credit Card,1,0,31.2,Medium,5,1,0,0,7.3,Initial setup confusion,No-Churn
+60058,65,69.87,4554.8,Two year,Credit Card,1,0,73.7,High,3,0,0,0,7.3,"Speed drop last month, resolved",No-Churn
+60059,38,33.86,1297,Two year,Credit Card,0,0,33.3,High,3,0,0,0,7.3,App login glitch,No-Churn
+60060,48,61.49,2962.11,One year,Credit Card,1,0,44.4,High,5,1,0,0,7.3,"Late setup, fixed quickly",No-Churn
+60061,29,57.68,1682.44,Two year,Credit Card,1,0,44.9,Medium,5,0,0,0,7.3,Brief internet outage,No-Churn
+60062,59,43.35,2563.74,Two year,Credit Card,1,0,52.1,High,3,0,0,0,7.3,Intermittent service - resolved,No-Churn
+60063,47,60.35,2847.45,One year,Bank Transfer,1,0,80.1,Medium,4,0,0,0,7.3,"Speed drop last month, resolved",No-Churn
+60064,68,39.12,2677.44,Two year,Credit Card,0,0,32.3,Medium,4,1,0,0,7.3,Streaming lag on one occasion,No-Churn
+60065,54,30.08,1643.08,Two year,Credit Card,0,0,88.1,High,3,1,0,0,7.3,Streaming lag on one occasion,No-Churn
+60066,69,36.77,2544.51,One year,Bank Transfer,0,0,89.8,Medium,5,1,0,0,7.3,Initial setup confusion,No-Churn
+60067,46,43.75,2019.87,Two year,Bank Transfer,0,0,25.8,Medium,4,1,0,0,7.3,Login trouble resolved via support,No-Churn
+60068,25,63.98,1609.69,One year,Credit Card,0,0,40.1,Medium,5,1,0,0,7.3,Router reset required,No-Churn
+60069,26,52.6,1371.5,One year,Bank Transfer,0,0,30.3,Medium,4,0,0,0,7.3,Low signal in one room,No-Churn
+60070,44,38.42,1699.69,One year,Bank Transfer,0,0,59.6,High,5,0,0,0,7.3,"Speed drop last month, resolved",No-Churn
+60071,54,46.72,2542.17,Two year,Credit Card,1,0,93.5,High,3,1,0,0,7.3,Login trouble resolved via support,No-Churn
+60072,43,48.53,2096.05,One year,Credit Card,1,0,48.2,High,4,1,0,0,7.3,"Late setup, fixed quickly",No-Churn
+60073,33,64.52,2129.79,Two year,Bank Transfer,1,0,54.1,High,4,0,0,0,7.3,Brief internet outage,No-Churn
+60074,63,59.14,3740.43,Two year,Bank Transfer,1,0,76.2,Medium,5,1,0,0,7.3,Minor billing clarification,No-Churn
+60075,51,53.49,2731.07,One year,Bank Transfer,0,0,80.5,High,4,0,0,0,7.3,Intermittent service - resolved,No-Churn
+60076,69,38.13,2649.48,One year,Bank Transfer,0,0,48.5,Medium,5,0,0,0,7.3,Brief internet outage,No-Churn
+60077,64,57.73,3708.15,One year,Credit Card,1,0,25.5,High,4,1,0,0,7.3,"Speed drop last month, resolved",No-Churn
+60078,65,69.15,4506,One year,Credit Card,1,0,54,Medium,5,1,0,0,7.3,"Late setup, fixed quickly",No-Churn
+60079,65,64.91,4231.12,One year,Credit Card,0,0,86.4,Medium,5,1,0,0,7.3,Resolved billing inquiry,No-Churn
+60080,70,42.56,2988.92,One year,Bank Transfer,0,0,55.7,High,4,0,0,0,7.3,"Late setup, fixed quickly",No-Churn
+60081,40,30.03,1216.24,Two year,Credit Card,0,0,44.9,High,5,0,0,0,7.3,Intermittent service - resolved,No-Churn
+60082,66,69.97,4627.06,Two year,Bank Transfer,1,0,32.2,Medium,4,1,0,0,7.3,Resolved billing inquiry,No-Churn
+60083,52,59.2,3080.41,Two year,Bank Transfer,1,0,78.4,Medium,5,0,0,0,7.3,App login glitch,No-Churn
+60084,31,42.84,1337.49,Two year,Bank Transfer,1,0,78.3,Medium,3,0,0,0,7.3,Low signal in one room,No-Churn
+60085,34,61.9,2117.21,One year,Bank Transfer,0,0,61.5,High,4,0,0,0,7.3,"Late setup, fixed quickly",No-Churn
+60086,62,62.77,3908.49,One year,Bank Transfer,0,0,85.7,Medium,4,0,0,0,7.3,Router reset required,No-Churn
+60087,33,56.58,1880.22,Two year,Bank Transfer,0,0,91.4,High,3,0,0,0,7.3,"Late setup, fixed quickly",No-Churn
+60088,40,38.12,1540.78,Two year,Credit Card,1,0,81.2,Medium,4,0,0,0,7.3,Voicemail configuration help,No-Churn
+60089,48,56.68,2734.83,One year,Bank Transfer,1,0,21.6,High,5,0,0,0,7.3,Voicemail configuration help,No-Churn
+60090,49,40.03,1975.01,Two year,Bank Transfer,1,0,57.1,High,3,1,0,0,7.3,Login trouble resolved via support,No-Churn
+60091,29,31.6,929.4,One year,Credit Card,0,0,82.8,Medium,3,0,0,0,7.3,Intermittent service - resolved,No-Churn
+60092,50,55.63,2799.78,One year,Bank Transfer,1,0,58.3,High,5,0,0,0,7.3,Intermittent service - resolved,No-Churn
+60093,49,50.23,2469.61,Two year,Bank Transfer,0,0,68.7,Medium,5,0,0,0,7.3,Intermittent service - resolved,No-Churn
+60094,45,54.52,2456.23,One year,Bank Transfer,0,0,21.5,Medium,5,1,0,0,7.3,Intermittent service - resolved,No-Churn
+60095,37,58.64,2186.56,One year,Bank Transfer,0,0,23.6,Medium,3,0,0,0,7.3,"Speed drop last month, resolved",No-Churn
+60096,65,45.05,2947.17,Two year,Bank Transfer,0,0,39.3,Medium,5,1,0,0,7.3,Streaming lag on one occasion,No-Churn
+60097,38,39.98,1524.72,Two year,Bank Transfer,1,0,24.6,High,5,1,0,0,7.3,App login glitch,No-Churn
+60098,57,59.77,3410.94,One year,Bank Transfer,0,0,86.1,High,3,1,0,0,7.3,Minor billing clarification,No-Churn
+60099,39,55.59,2175.71,Two year,Credit Card,0,0,94.3,Medium,4,0,0,0,7.3,Voicemail configuration help,No-Churn

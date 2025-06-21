@@ -1,0 +1,6 @@
+-- import these packages in the streamlit app using the Packages-> Find Packages option
+plotly
+snowflake-ml-python
+snowflake.core
+scikit-image
+pandas

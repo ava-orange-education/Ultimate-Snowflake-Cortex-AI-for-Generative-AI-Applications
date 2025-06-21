@@ -1,0 +1,60 @@
+-- The results of the command are pasted here for reference.
+-- Feel free to experiment with other models and check results.
+--------------------------------------------------------------------
+
+ To accomplish this task, you'll need to install the `snowflake-connector-python` package. You can do this by running the following command in your terminal or command prompt:
+```bash
+pip install snowflake-connector-python
+```
+Here's the Python code to read the data from Snowflake, identify suspicious users, and write the results to a new table:
+```python
+import snowflake.connector
+
+# Replace these values with your own Snowflake connection details
+conn = snowflake.connector.connect(
+    user='your_username',
+    password='your_password',
+    account='your_account',
+    warehouse='your_warehouse',
+    database='your_database',
+    schema='your_schema'
+)
+
+cursor = conn.cursor()
+
+# Read threshold value from the login_threshold_config table
+cursor.execute("SELECT threshold FROM login_threshold_config")
+threshold = cursor.fetchone()[0]
+
+# Read failed login data from the user_logins table
+cursor.execute("SELECT user_id, date, failed_logins FROM user_logins")
+
+# Create the suspicious_users table if it doesn't exist
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS suspicious_users (
+    user_id INT,
+    date DATE,
+    total_failed_logins INT,
+    is_suspicious BOOLEAN
+)
+""")
+
+# Identify suspicious users and insert the results into the suspicious_users table
+for row in cursor:
+    user_id, date, failed_logins = row
+    if failed_logins > threshold:
+        is_suspicious = True
+    else:
+        is_suspicious = False
+
+    cursor.execute("""
+    INSERT INTO suspicious_users (user_id, date, total_failed_logins, is_suspicious)
+    VALUES (%s, %s, %s, %s)
+    """, (user_id, date, failed_logins, is_suspicious))
+
+conn.commit()
+
+cursor.close()
+conn.close()
+```
+Make sure to replace the connection details with your own Snowflake account information. This code assumes that the `user_logins` and `login_threshold_config` tables exist in your Snowflake database.

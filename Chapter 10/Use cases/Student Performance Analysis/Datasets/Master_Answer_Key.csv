@@ -1,0 +1,31 @@
+Category,Question_Number,Question,A,B,C,D,Correct_Answer
+Mathematics,1,What is 247 + 1020?,A. 1200,B. 1267,C. 1329,D. 1467,B
+Mathematics,2,What is the square root of 16?,A. 2,B. 3,C. 4,D. 5,C
+Mathematics,3,Solve for x: 2x + 3 = 7,A. 1,B. 2,C. 3,D. 4,B
+Mathematics,4,What is the value of ? (pi) approximately?,A. 2.14,B. 3.14,C. 4.14,D. 5.14,B
+Mathematics,5,What is 10% of 200?,A. 10,B. 15,C. 20,D. 25,C
+Physics,6,What is the unit of force?,A. Joule,B. Newton,C. Watt,D. Pascal,B
+Physics,7,"Which law states that for every action, there is an equal and opposite reaction?",A. Newton's First Law,B. Newton's Second Law,C. Newton's Third Law,D. Law of Gravity,C
+Physics,8,What is the speed of light in vacuum?,A. 3x10^8 m/s,B. 3x10^6 m/s,C. 3x10^4 m/s,D. 3x10^2 m/s,A
+Physics,9,What does a convex lens do to light rays?,A. Diverges,B. Converges,C. Reflects,D. Absorbs,B
+Physics,10,What is the boiling point of water in Celsius?,A. 90,B. 100,C. 110,D. 120,B
+Chemistry,11,What is the chemical symbol for water?,A. H2O,B. CO2,C. NaCl,D. O2,A
+Chemistry,12,Which gas is essential for respiration?,A. Hydrogen,B. Oxygen,C. Nitrogen,D. Carbon Dioxide,B
+Chemistry,13,What is the pH of a neutral solution?,A. 5,B. 6,C. 7,D. 8,C
+Chemistry,14,Which element is a noble gas?,A. Helium,B. Sodium,C. Iron,D. Chlorine,A
+Chemistry,15,What type of bond is found in salt (NaCl)?,A. Ionic,B. Covalent,C. Metallic,D. Hydrogen,A
+Technology,16,What does CPU stand for?,A. Central Processing Unit,B. Computer Power Unit,C. Core Processing Utility,D. Central Performance Unit,A
+Technology,17,What is the main function of RAM in a computer?,A. Long-term storage,B. Temporary memory,C. Graphic processing,D. Network communication,B
+Technology,18,Which company created the Windows operating system?,A. Apple,B. Google,C. Microsoft,D. IBM,C
+Technology,19,What is used to browse the internet?,A. Browser,B. Compiler,C. Operating System,D. Text Editor,A
+Technology,20,Which programming language is widely used for AI development?,A. Java,B. C++,C. Python,D. Ruby,C
+Literature,21,Who wrote 'Romeo and Juliet'?,A. Charles Dickens,B. William Shakespeare,C. Mark Twain,D. Jane Austen,B
+Literature,22,What is the main theme of 'To Kill a Mockingbird'?,A. Love,B. Justice,C. Science,D. War,B
+Literature,23,Who is the author of '1984'?,A. George Orwell,B. J.K. Rowling,C. Ernest Hemingway,D. F. Scott Fitzgerald,A
+Literature,24,What is the first book in the Harry Potter series?,A. Chamber of Secrets,B. Goblet of Fire,C. Sorcerer's Stone,D. Order of the Phoenix,C
+Literature,25,Who wrote 'The Great Gatsby'?,A. J.D. Salinger,B. F. Scott Fitzgerald,C. George Orwell,D. William Faulkner,B
+General Aptitude,26,"What comes next in the sequence: 2, 4, 8, 16, ...?",A. 24,B. 32,C. 36,D. 40,B
+General Aptitude,27,Which shape has four equal sides?,A. Triangle,B. Square,C. Rectangle,D. Circle,B
+General Aptitude,28,What is half of 100?,A. 25,B. 50,C. 75,D. 100,B
+General Aptitude,29,"If a clock shows 3:15, what is the angle between the hour and minute hand?",A. 7.5 degrees,B. 22.5 degrees,C. 37.5 degrees,D. 45 degrees,B
+General Aptitude,30,Which number is a prime number?,A. 14,B. 17,C. 21,D. 25,B

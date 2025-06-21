@@ -1,0 +1,201 @@
+Employee_ID,Age,Gender,Education_Level,Dependents_Count,City,Department,Job_Role,Employment_Type,Tenure_Months,Shift_Type,Work_Location,Manager_Changes_Last_Year,Last_Promotion_Months_Ago,Average_Handling_Time,Customer_Satisfaction_Score,Quality_Score,Absenteeism_Rate,Overtime_Hours_Last_Month,Warnings_Issued_Last_Year,Training_Hours_Completed,Monthly_Salary,Salary_Hike_Percentage,Incentive_Payout_Last_Quarter,Travel_Allowance,Churn
+E2000,44,Male,High School,3,Chicago,Customer Support,Support Executive,Full-Time,45,Rotational,Onsite,2,37,6.35,4.0,82,0.06,5,0,15,4708,1,938,Yes,0
+E2001,29,Female,High School,3,Atlanta,Customer Support,Support Executive,Full-Time,54,Day,Onsite,2,9,7.47,3.2,91,0.14,8,0,33,2694,7,930,No,0
+E2002,32,Female,Diploma,1,Chicago,Customer Support,Support Executive,Full-Time,15,Night,Onsite,0,39,4.86,3.8,70,0.23,15,2,22,2924,10,509,No,1
+E2003,38,Male,Master,0,Dallas,Customer Support,Team Lead,Part-Time,20,Night,Remote,2,45,8.22,3.2,98,0.27,10,3,23,2151,3,62,No,1
+E2004,30,Female,Diploma,2,New York,Customer Support,Support Executive,Full-Time,29,Day,Onsite,1,23,5.83,4.8,83,0.25,6,3,12,2585,9,632,Yes,0
+E2005,32,Female,High School,2,Chicago,Customer Support,Team Lead,Full-Time,59,Day,Onsite,2,34,8.04,3.7,70,0.07,9,1,17,2912,19,225,No,0
+E2006,40,Male,Diploma,3,New York,Customer Support,Senior Support Agent,Full-Time,42,Day,Hybrid,1,43,6.36,4.5,88,0.14,9,3,12,4321,15,104,No,0
+E2007,27,Female,Diploma,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,29,Day,Remote,2,47,3.93,4.6,85,0.07,29,2,36,3577,7,973,No,0
+E2008,27,Female,Diploma,3,Dallas,Customer Support,Support Executive,Part-Time,3,Day,Onsite,0,59,7.2,2.4,75,0.09,24,2,38,2495,3,771,No,1
+E2009,23,Male,Diploma,1,New York,Customer Support,Senior Support Agent,Full-Time,19,Night,Remote,2,22,7.13,2.8,94,0.16,19,2,16,4148,9,860,Yes,1
+E2010,34,Male,Diploma,1,Dallas,Customer Support,Senior Support Agent,Full-Time,3,Day,Onsite,1,16,8.32,4.0,79,0.03,17,1,14,2556,11,424,No,0
+E2011,30,Female,Diploma,0,New York,Customer Support,Senior Support Agent,Full-Time,54,Night,Onsite,1,0,9.33,3.1,62,0.07,27,0,17,3105,13,254,Yes,0
+E2012,30,Male,High School,1,Atlanta,Customer Support,Support Executive,Full-Time,14,Rotational,Onsite,2,54,9.87,3.3,60,0.28,23,3,22,3552,15,428,No,1
+E2013,20,Female,Diploma,1,Atlanta,Customer Support,Support Executive,Full-Time,40,Day,Remote,1,30,8.3,4.8,60,0.15,19,2,29,4120,17,433,Yes,0
+E2014,36,Male,Diploma,0,Dallas,Customer Support,Senior Support Agent,Full-Time,59,Rotational,Onsite,1,30,7.42,3.2,76,0.14,28,2,33,2156,11,206,No,1
+E2015,34,Female,High School,2,Atlanta,Customer Support,Team Lead,Full-Time,55,Rotational,Onsite,0,41,4.86,2.5,61,0.01,8,0,3,2734,17,27,Yes,0
+E2016,39,Male,Bachelor,3,Chicago,Customer Support,Senior Support Agent,Full-Time,4,Rotational,Remote,2,56,7.3,2.7,88,0.08,14,2,2,4179,6,681,No,1
+E2017,25,Female,High School,3,New York,Customer Support,Support Executive,Full-Time,59,Day,Onsite,2,54,7.32,5.0,79,0.26,3,3,6,3427,19,335,Yes,1
+E2018,43,Female,Bachelor,2,Atlanta,Customer Support,Support Executive,Full-Time,52,Day,Hybrid,2,41,6.7,3.3,65,0.06,7,1,17,2558,6,587,Yes,0
+E2019,41,Female,Bachelor,0,Chicago,Customer Support,Support Executive,Full-Time,11,Day,Onsite,1,52,7.95,2.1,67,0.13,8,2,6,4154,8,627,Yes,0
+E2020,44,Male,Bachelor,2,Dallas,Customer Support,Senior Support Agent,Full-Time,58,Night,Remote,2,55,8.68,1.7,88,0.01,12,3,39,4312,0,68,No,1
+E2021,34,Male,Diploma,1,Chicago,Customer Support,Team Lead,Full-Time,31,Rotational,Remote,2,33,5.77,2.9,92,0.15,8,2,5,2154,5,865,Yes,1
+E2022,28,Female,Diploma,0,Dallas,Customer Support,Support Executive,Part-Time,43,Night,Hybrid,0,8,5.75,3.3,62,0.02,25,0,21,2996,5,745,Yes,0
+E2023,33,Female,Bachelor,0,Dallas,Customer Support,Support Executive,Full-Time,32,Day,Remote,0,21,6.79,4.4,94,0.25,3,2,0,4294,11,512,Yes,0
+E2024,37,Male,Master,0,New York,Customer Support,Senior Support Agent,Full-Time,27,Rotational,Onsite,0,12,6.08,4.4,64,0.25,16,2,3,2530,11,166,Yes,0
+E2025,36,Male,Diploma,3,New York,Customer Support,Team Lead,Part-Time,30,Night,Onsite,1,24,4.54,3.5,86,0.24,15,1,28,4905,9,863,No,0
+E2026,37,Male,High School,2,Chicago,Customer Support,Senior Support Agent,Full-Time,43,Rotational,Remote,2,47,5.51,3.0,71,0.09,14,0,20,3971,5,729,Yes,0
+E2027,24,Male,Diploma,0,New York,Customer Support,Support Executive,Part-Time,2,Rotational,Hybrid,0,17,5.15,3.8,79,0.25,2,0,25,4585,16,784,Yes,0
+E2028,39,Male,Diploma,0,New York,Customer Support,Team Lead,Full-Time,49,Night,Onsite,0,50,8.81,1.8,79,0.17,24,1,13,2728,18,367,Yes,1
+E2029,39,Male,Bachelor,0,New York,Customer Support,Team Lead,Full-Time,9,Rotational,Onsite,0,11,9.55,5.0,68,0.12,19,2,8,3177,17,250,No,0
+E2030,28,Female,Bachelor,2,Chicago,Customer Support,Support Executive,Full-Time,28,Night,Remote,2,39,5.36,4.2,98,0.19,4,3,11,2153,5,858,Yes,1
+E2031,30,Male,Diploma,3,Atlanta,Customer Support,Team Lead,Full-Time,31,Night,Onsite,2,16,7.82,4.4,63,0.01,22,0,5,2091,18,855,Yes,0
+E2032,43,Female,Diploma,1,New York,Customer Support,Team Lead,Full-Time,34,Night,Remote,2,14,8.31,2.4,78,0.05,4,0,19,4385,9,930,Yes,0
+E2033,41,Male,Diploma,3,New York,Customer Support,Senior Support Agent,Full-Time,56,Rotational,Remote,1,41,4.76,4.8,97,0.23,19,2,23,3503,7,685,Yes,1
+E2034,20,Male,Bachelor,0,Chicago,Customer Support,Support Executive,Full-Time,15,Night,Remote,1,14,7.24,3.0,86,0.08,14,2,26,3716,5,169,No,0
+E2035,37,Female,Diploma,3,Atlanta,Customer Support,Support Executive,Full-Time,48,Day,Remote,0,14,10.8,2.5,72,0.18,17,0,37,4497,6,757,Yes,0
+E2036,25,Female,Diploma,3,New York,Customer Support,Support Executive,Full-Time,25,Day,Onsite,2,54,8.02,3.5,72,0.12,14,2,7,4016,0,934,Yes,0
+E2037,21,Male,High School,1,Dallas,Customer Support,Support Executive,Full-Time,36,Night,Onsite,0,38,6.63,3.4,81,0.26,1,3,0,4857,17,89,No,1
+E2038,34,Female,Diploma,2,Chicago,Customer Support,Support Executive,Full-Time,8,Day,Remote,2,12,6.16,2.4,87,0.29,28,0,23,2786,19,560,No,0
+E2039,40,Female,Master,2,New York,Customer Support,Team Lead,Full-Time,9,Day,Hybrid,2,16,3.97,2.6,81,0.27,12,3,6,2272,11,445,No,1
+E2040,33,Female,Diploma,3,New York,Customer Support,Senior Support Agent,Full-Time,58,Day,Onsite,2,31,7.71,2.5,78,0.09,3,3,18,4027,15,293,Yes,1
+E2041,24,Female,Diploma,3,Dallas,Customer Support,Support Executive,Full-Time,58,Night,Remote,1,8,9.92,2.5,67,0.07,9,2,21,4635,9,918,No,0
+E2042,25,Male,Diploma,2,Dallas,Customer Support,Senior Support Agent,Full-Time,37,Day,Onsite,1,39,5.78,3.1,67,0.15,12,3,34,2176,9,149,Yes,0
+E2043,25,Female,Bachelor,2,Chicago,Customer Support,Senior Support Agent,Full-Time,48,Night,Remote,2,19,4.1,2.1,85,0.01,9,2,29,4878,13,131,No,1
+E2044,41,Male,Bachelor,1,Chicago,Customer Support,Team Lead,Full-Time,45,Day,Remote,0,25,6.0,2.8,85,0.02,28,1,28,2642,19,432,Yes,0
+E2045,37,Male,Bachelor,0,Dallas,Customer Support,Support Executive,Full-Time,39,Rotational,Hybrid,2,26,8.32,4.5,82,0.17,8,2,21,3898,9,58,No,1
+E2046,33,Male,Diploma,3,Chicago,Customer Support,Team Lead,Full-Time,32,Day,Onsite,2,20,6.36,4.3,72,0.16,7,3,10,2566,9,968,Yes,0
+E2047,29,Male,Diploma,2,Dallas,Customer Support,Support Executive,Full-Time,58,Rotational,Remote,0,17,5.77,2.5,87,0.3,2,1,19,2665,10,835,No,0
+E2048,33,Female,Bachelor,3,New York,Customer Support,Team Lead,Part-Time,52,Rotational,Onsite,2,12,7.03,4.5,68,0.07,15,2,28,3331,1,198,Yes,0
+E2049,32,Female,Bachelor,3,Dallas,Customer Support,Senior Support Agent,Full-Time,17,Night,Onsite,0,15,7.34,1.5,79,0.08,13,3,33,4915,19,214,Yes,0
+E2050,22,Male,Bachelor,2,Dallas,Customer Support,Support Executive,Full-Time,35,Night,Onsite,1,8,4.92,5.0,78,0.04,8,0,0,3798,7,897,Yes,0
+E2051,25,Male,High School,1,Atlanta,Customer Support,Senior Support Agent,Part-Time,37,Night,Onsite,1,11,6.67,4.8,98,0.28,29,0,30,3069,6,560,Yes,0
+E2052,27,Male,High School,3,Dallas,Customer Support,Senior Support Agent,Full-Time,19,Night,Onsite,0,43,6.25,2.9,71,0.24,20,2,29,4349,7,471,Yes,1
+E2053,31,Male,Diploma,1,Dallas,Customer Support,Team Lead,Full-Time,44,Rotational,Hybrid,1,37,6.04,3.9,74,0.25,10,2,17,4915,0,743,Yes,1
+E2054,32,Female,Bachelor,2,Atlanta,Customer Support,Support Executive,Part-Time,29,Rotational,Remote,1,18,5.47,2.1,90,0.27,2,0,16,4959,1,246,Yes,0
+E2055,30,Male,Master,0,Chicago,Customer Support,Senior Support Agent,Full-Time,59,Night,Hybrid,0,59,8.41,3.6,73,0.16,4,3,37,2407,17,381,Yes,1
+E2056,31,Female,Bachelor,0,Atlanta,Customer Support,Team Lead,Full-Time,7,Rotational,Remote,1,6,6.03,3.3,70,0.14,28,3,13,3212,14,990,No,0
+E2057,20,Male,Diploma,3,New York,Customer Support,Support Executive,Full-Time,28,Night,Onsite,2,56,4.01,2.7,85,0.11,9,3,22,4869,0,238,Yes,1
+E2058,36,Male,High School,2,Atlanta,Customer Support,Support Executive,Full-Time,9,Day,Remote,2,34,7.4,3.0,86,0.18,12,2,24,3853,4,926,Yes,1
+E2059,35,Male,Diploma,1,New York,Customer Support,Senior Support Agent,Full-Time,28,Night,Onsite,0,47,8.09,2.9,70,0.14,3,1,14,3152,1,366,No,0
+E2060,30,Male,Bachelor,3,Chicago,Customer Support,Support Executive,Part-Time,6,Day,Onsite,1,17,5.81,2.4,97,0.14,23,1,21,4608,19,167,Yes,0
+E2061,32,Female,Diploma,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,29,Day,Remote,2,15,6.16,2.6,93,0.28,12,1,2,3141,2,559,No,0
+E2062,37,Female,Diploma,2,Atlanta,Customer Support,Support Executive,Full-Time,58,Day,Hybrid,2,54,6.03,2.1,78,0.3,11,1,18,4511,18,50,Yes,1
+E2063,30,Female,Bachelor,1,Chicago,Customer Support,Team Lead,Full-Time,17,Rotational,Onsite,1,38,6.48,4.4,65,0.24,4,1,33,2143,17,810,No,1
+E2064,31,Male,High School,3,New York,Customer Support,Senior Support Agent,Full-Time,16,Day,Onsite,1,3,8.66,2.6,97,0.23,9,2,34,4489,17,609,No,0
+E2065,25,Male,Bachelor,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,23,Rotational,Onsite,2,58,6.83,2.3,87,0.21,27,2,0,2486,13,950,Yes,1
+E2066,28,Female,High School,2,New York,Customer Support,Support Executive,Full-Time,31,Night,Hybrid,2,24,8.26,4.3,60,0.06,23,1,20,2859,7,727,No,0
+E2067,35,Female,Diploma,2,Atlanta,Customer Support,Support Executive,Full-Time,3,Day,Remote,0,31,5.55,3.9,94,0.03,8,2,28,3935,11,688,Yes,0
+E2068,23,Male,High School,1,Dallas,Customer Support,Senior Support Agent,Full-Time,21,Day,Hybrid,0,39,6.42,4.3,99,0.21,19,2,5,2147,9,379,Yes,1
+E2069,22,Male,Diploma,3,Atlanta,Customer Support,Support Executive,Part-Time,26,Night,Onsite,2,12,8.43,4.4,67,0.22,6,1,36,3359,19,473,Yes,0
+E2070,35,Female,Diploma,3,Chicago,Customer Support,Team Lead,Full-Time,36,Night,Hybrid,0,44,5.79,5.0,66,0.02,1,3,0,3357,16,79,Yes,0
+E2071,43,Male,Bachelor,3,Chicago,Customer Support,Support Executive,Full-Time,42,Night,Onsite,2,16,8.52,3.3,70,0.28,21,2,0,4858,10,696,No,1
+E2072,44,Male,High School,3,New York,Customer Support,Team Lead,Full-Time,37,Day,Onsite,2,48,6.06,2.0,98,0.04,23,3,26,4713,1,366,Yes,1
+E2073,31,Female,High School,0,Atlanta,Customer Support,Team Lead,Full-Time,53,Day,Hybrid,0,36,6.52,3.8,63,0.09,27,2,20,2089,3,460,No,0
+E2074,30,Male,Bachelor,0,New York,Customer Support,Team Lead,Full-Time,22,Day,Remote,0,5,9.51,2.8,84,0.2,22,2,15,3357,0,910,No,0
+E2075,24,Female,Diploma,3,New York,Customer Support,Team Lead,Part-Time,42,Night,Hybrid,1,18,6.35,2.5,71,0.06,6,1,39,2198,14,538,Yes,0
+E2076,44,Male,High School,1,Dallas,Customer Support,Team Lead,Full-Time,12,Day,Remote,1,12,7.22,3.6,85,0.03,7,2,25,2537,12,451,Yes,0
+E2077,37,Female,Bachelor,0,Dallas,Customer Support,Support Executive,Full-Time,42,Night,Onsite,1,56,7.92,4.4,97,0.11,6,0,15,2300,7,463,Yes,0
+E2078,38,Male,High School,2,Chicago,Customer Support,Team Lead,Full-Time,13,Rotational,Remote,2,59,7.34,2.7,71,0.23,20,0,27,2723,3,959,Yes,1
+E2079,42,Female,Diploma,0,New York,Customer Support,Support Executive,Full-Time,11,Night,Hybrid,0,25,7.38,4.8,96,0.13,22,1,0,3598,9,477,No,0
+E2080,42,Female,High School,2,Chicago,Customer Support,Team Lead,Full-Time,54,Day,Remote,2,13,6.92,2.5,83,0.2,28,3,35,3459,18,925,Yes,1
+E2081,25,Female,High School,3,Atlanta,Customer Support,Senior Support Agent,Full-Time,16,Day,Onsite,0,30,5.05,3.3,75,0.18,13,3,9,2067,17,419,No,1
+E2082,41,Female,High School,0,New York,Customer Support,Team Lead,Full-Time,8,Night,Onsite,2,53,7.52,3.9,72,0.02,25,3,16,4506,4,706,Yes,1
+E2083,37,Male,Bachelor,1,New York,Customer Support,Senior Support Agent,Full-Time,40,Day,Remote,1,3,5.9,3.1,84,0.3,18,0,22,3537,18,213,Yes,0
+E2084,25,Male,Bachelor,0,Atlanta,Customer Support,Team Lead,Full-Time,59,Rotational,Onsite,1,59,8.16,1.7,63,0.02,4,3,6,2397,15,368,Yes,1
+E2085,23,Female,Diploma,0,Atlanta,Customer Support,Team Lead,Full-Time,57,Night,Remote,1,38,9.06,4.4,70,0.29,22,3,6,2619,0,853,Yes,1
+E2086,31,Male,High School,0,Chicago,Customer Support,Team Lead,Full-Time,40,Rotational,Onsite,2,7,4.29,2.9,91,0.17,24,1,14,3584,11,113,No,1
+E2087,38,Male,Diploma,3,Chicago,Customer Support,Senior Support Agent,Full-Time,45,Rotational,Remote,0,24,9.06,4.2,66,0.29,17,3,33,3163,1,753,No,0
+E2088,21,Male,Diploma,1,Atlanta,Customer Support,Senior Support Agent,Full-Time,59,Day,Onsite,0,12,6.38,2.2,70,0.04,19,0,3,2729,7,502,Yes,0
+E2089,36,Male,Diploma,0,Chicago,Customer Support,Team Lead,Full-Time,2,Night,Onsite,1,31,6.8,2.4,87,0.15,11,0,13,2555,17,635,No,1
+E2090,30,Male,Diploma,1,Atlanta,Customer Support,Support Executive,Part-Time,30,Day,Hybrid,1,58,5.63,4.4,82,0.06,22,0,13,3952,15,816,No,0
+E2091,30,Female,Diploma,3,New York,Customer Support,Team Lead,Full-Time,30,Day,Onsite,1,37,7.28,3.8,82,0.02,16,1,15,4828,4,587,Yes,0
+E2092,40,Female,High School,2,New York,Customer Support,Senior Support Agent,Part-Time,12,Rotational,Hybrid,1,37,7.1,3.1,87,0.19,12,1,6,3751,12,310,Yes,0
+E2093,35,Female,Bachelor,0,Dallas,Customer Support,Team Lead,Full-Time,10,Night,Onsite,0,55,8.62,3.9,85,0.07,1,2,31,4941,18,468,No,0
+E2094,21,Female,High School,1,New York,Customer Support,Senior Support Agent,Full-Time,44,Day,Hybrid,2,27,5.89,2.5,84,0.18,24,3,18,4657,2,823,No,1
+E2095,21,Male,Diploma,1,Atlanta,Customer Support,Senior Support Agent,Full-Time,11,Night,Hybrid,2,52,9.49,3.6,88,0.04,12,1,1,4795,7,707,No,0
+E2096,42,Male,Diploma,3,Chicago,Customer Support,Senior Support Agent,Part-Time,15,Rotational,Onsite,2,29,8.0,3.6,78,0.11,25,0,9,4329,11,862,No,0
+E2097,27,Female,High School,0,Dallas,Customer Support,Team Lead,Full-Time,16,Day,Remote,2,2,7.14,3.1,92,0.24,6,0,16,4708,1,43,Yes,0
+E2098,32,Male,Diploma,2,Chicago,Customer Support,Senior Support Agent,Full-Time,17,Day,Onsite,1,27,6.73,2.7,95,0.14,27,1,36,4971,10,414,Yes,0
+E2099,29,Male,Diploma,1,Atlanta,Customer Support,Senior Support Agent,Full-Time,26,Rotational,Hybrid,1,2,6.54,3.6,73,0.19,9,1,11,2995,11,697,No,0
+E2100,27,Female,Master,0,New York,Customer Support,Team Lead,Full-Time,2,Rotational,Remote,1,44,6.64,3.4,73,0.2,22,1,5,3959,17,854,Yes,1
+E2101,23,Male,High School,2,Dallas,Customer Support,Senior Support Agent,Full-Time,50,Night,Hybrid,2,53,7.25,3.0,94,0.25,5,2,21,3601,12,245,No,1
+E2102,34,Female,Master,1,Atlanta,Customer Support,Team Lead,Full-Time,12,Rotational,Onsite,1,33,6.69,2.5,89,0.1,2,0,31,4793,4,948,No,0
+E2103,20,Female,Diploma,1,Dallas,Customer Support,Senior Support Agent,Full-Time,51,Rotational,Remote,1,15,6.04,3.5,87,0.21,25,2,19,3480,11,83,Yes,0
+E2104,30,Male,High School,2,Dallas,Customer Support,Support Executive,Full-Time,26,Night,Remote,0,21,7.26,3.0,76,0.29,2,2,0,4134,1,206,No,0
+E2105,26,Male,Diploma,2,New York,Customer Support,Support Executive,Part-Time,23,Night,Onsite,0,31,5.75,2.5,62,0.22,17,3,5,3102,4,150,No,1
+E2106,36,Female,Diploma,3,Atlanta,Customer Support,Senior Support Agent,Full-Time,18,Night,Onsite,1,37,7.48,3.5,75,0.15,10,0,18,4838,6,667,Yes,0
+E2107,39,Female,Bachelor,0,Chicago,Customer Support,Support Executive,Part-Time,32,Night,Remote,0,7,6.67,5.0,89,0.19,21,0,17,4351,11,527,Yes,0
+E2108,43,Male,High School,0,Dallas,Customer Support,Team Lead,Full-Time,49,Day,Onsite,0,54,8.05,3.1,88,0.22,19,1,5,3403,15,164,No,0
+E2109,37,Female,Diploma,3,Dallas,Customer Support,Support Executive,Full-Time,38,Day,Onsite,1,7,8.48,5.0,74,0.19,4,1,32,4177,7,916,No,0
+E2110,41,Female,Diploma,1,Chicago,Customer Support,Senior Support Agent,Full-Time,57,Day,Remote,1,56,8.48,5.0,84,0.01,18,3,22,4643,8,974,Yes,0
+E2111,41,Female,Bachelor,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,47,Day,Remote,1,5,7.48,2.5,97,0.07,21,2,22,3299,14,144,No,0
+E2112,31,Male,High School,2,Dallas,Customer Support,Team Lead,Full-Time,3,Rotational,Remote,1,13,7.65,3.5,97,0.25,26,1,25,3722,4,36,No,0
+E2113,28,Female,Bachelor,2,Dallas,Customer Support,Senior Support Agent,Full-Time,38,Night,Hybrid,2,31,6.52,5.0,82,0.09,27,1,12,4605,12,332,Yes,0
+E2114,24,Male,Diploma,1,Dallas,Customer Support,Team Lead,Full-Time,3,Day,Onsite,2,34,8.02,3.4,84,0.22,18,0,6,2898,4,402,Yes,1
+E2115,29,Female,Diploma,2,Atlanta,Customer Support,Support Executive,Part-Time,30,Day,Remote,1,9,8.19,3.5,66,0.12,29,0,14,3206,10,413,Yes,0
+E2116,23,Male,Diploma,2,Atlanta,Customer Support,Support Executive,Full-Time,1,Day,Remote,0,2,4.65,1.8,81,0.16,14,1,26,3535,9,44,Yes,0
+E2117,24,Female,Diploma,3,Chicago,Customer Support,Team Lead,Full-Time,30,Rotational,Remote,1,58,7.57,3.0,76,0.03,29,0,25,2077,19,401,Yes,0
+E2118,29,Male,Diploma,1,Atlanta,Customer Support,Team Lead,Full-Time,45,Day,Onsite,1,11,9.05,4.1,77,0.06,15,3,32,4831,12,205,Yes,0
+E2119,30,Male,Bachelor,0,Atlanta,Customer Support,Senior Support Agent,Part-Time,32,Rotational,Remote,0,48,6.47,5.0,69,0.29,23,1,14,4721,8,61,No,0
+E2120,40,Male,Diploma,3,New York,Customer Support,Support Executive,Part-Time,28,Rotational,Onsite,2,58,6.14,3.3,69,0.27,8,0,35,3532,13,419,No,1
+E2121,43,Female,Bachelor,3,Chicago,Customer Support,Team Lead,Part-Time,21,Rotational,Onsite,1,30,6.37,1.8,66,0.2,3,3,26,2237,17,867,Yes,1
+E2122,29,Female,Diploma,0,Dallas,Customer Support,Support Executive,Part-Time,58,Day,Remote,1,28,4.74,2.1,97,0.14,14,0,4,3157,14,467,Yes,0
+E2123,27,Female,Bachelor,3,Atlanta,Customer Support,Team Lead,Full-Time,46,Day,Onsite,2,4,7.19,3.5,86,0.21,24,0,1,3996,9,819,No,0
+E2124,21,Male,Diploma,1,Dallas,Customer Support,Support Executive,Full-Time,13,Rotational,Onsite,2,51,7.04,4.7,92,0.19,11,0,32,3215,6,18,No,1
+E2125,42,Female,Diploma,2,Dallas,Customer Support,Senior Support Agent,Full-Time,27,Day,Remote,0,24,7.3,4.1,60,0.17,22,1,15,2277,7,364,No,0
+E2126,27,Male,Diploma,1,New York,Customer Support,Support Executive,Part-Time,36,Day,Onsite,2,40,7.62,4.0,93,0.03,2,2,22,2523,2,299,Yes,0
+E2127,35,Female,Diploma,0,Atlanta,Customer Support,Support Executive,Part-Time,7,Day,Onsite,2,30,5.8,4.8,63,0.19,22,0,37,2179,14,6,Yes,1
+E2128,41,Male,Bachelor,0,Chicago,Customer Support,Support Executive,Full-Time,22,Rotational,Onsite,2,20,7.41,2.8,76,0.23,13,3,15,2122,15,760,No,1
+E2129,24,Male,High School,3,Atlanta,Customer Support,Support Executive,Full-Time,10,Rotational,Hybrid,0,57,7.66,3.5,63,0.3,16,1,13,3269,3,427,Yes,0
+E2130,44,Male,High School,1,Dallas,Customer Support,Support Executive,Full-Time,39,Rotational,Onsite,2,19,6.27,3.0,85,0.01,18,1,28,3757,5,116,Yes,0
+E2131,22,Female,Bachelor,1,Chicago,Customer Support,Senior Support Agent,Full-Time,53,Day,Hybrid,2,38,7.63,3.2,63,0.22,5,3,25,3094,0,579,Yes,1
+E2132,31,Female,High School,0,Atlanta,Customer Support,Team Lead,Full-Time,15,Night,Onsite,0,21,7.12,2.5,60,0.18,3,0,34,2479,3,506,No,1
+E2133,32,Female,High School,1,Dallas,Customer Support,Support Executive,Full-Time,15,Night,Onsite,2,3,6.05,3.2,66,0.14,6,2,14,3797,10,545,No,0
+E2134,32,Male,Diploma,0,Dallas,Customer Support,Senior Support Agent,Part-Time,4,Night,Hybrid,2,12,7.42,3.5,89,0.05,29,0,2,4131,11,705,Yes,0
+E2135,29,Male,Master,1,New York,Customer Support,Support Executive,Full-Time,32,Day,Onsite,0,44,6.56,3.1,68,0.13,18,3,22,4612,4,324,Yes,0
+E2136,23,Female,Diploma,1,New York,Customer Support,Support Executive,Full-Time,23,Night,Hybrid,1,41,8.05,3.3,94,0.11,16,1,28,4666,15,54,Yes,0
+E2137,28,Female,Bachelor,1,New York,Customer Support,Team Lead,Full-Time,55,Day,Onsite,0,49,6.64,3.9,67,0.1,24,2,33,4404,12,777,Yes,0
+E2138,41,Female,Bachelor,0,Dallas,Customer Support,Support Executive,Full-Time,6,Rotational,Onsite,2,48,5.07,4.7,83,0.22,15,1,32,2815,12,991,Yes,1
+E2139,43,Male,High School,3,Atlanta,Customer Support,Senior Support Agent,Full-Time,24,Night,Remote,2,19,7.4,4.8,78,0.21,14,3,22,4694,16,41,No,1
+E2140,42,Male,Bachelor,1,New York,Customer Support,Senior Support Agent,Full-Time,20,Night,Hybrid,2,51,7.34,4.3,95,0.18,21,0,6,2442,6,296,Yes,1
+E2141,21,Male,Diploma,0,Atlanta,Customer Support,Team Lead,Full-Time,58,Day,Onsite,0,12,5.38,2.2,86,0.28,7,2,2,4570,7,972,Yes,0
+E2142,38,Male,Bachelor,0,New York,Customer Support,Support Executive,Full-Time,37,Rotational,Onsite,2,16,8.13,3.1,91,0.11,18,1,31,2142,12,230,Yes,0
+E2143,20,Male,Bachelor,1,Chicago,Customer Support,Senior Support Agent,Full-Time,20,Night,Onsite,2,53,8.05,3.2,73,0.08,7,1,30,2191,15,452,No,1
+E2144,44,Female,Diploma,1,Chicago,Customer Support,Support Executive,Full-Time,12,Rotational,Remote,0,35,5.7,2.8,77,0.2,17,1,17,3410,3,889,No,1
+E2145,26,Male,High School,3,New York,Customer Support,Support Executive,Full-Time,33,Day,Hybrid,1,32,6.01,3.8,87,0.07,27,0,6,2377,7,393,Yes,0
+E2146,36,Male,Master,0,Dallas,Customer Support,Support Executive,Full-Time,28,Rotational,Hybrid,1,0,6.79,1.9,88,0.1,15,2,0,4628,15,521,No,0
+E2147,22,Male,High School,0,New York,Customer Support,Team Lead,Full-Time,8,Rotational,Remote,2,14,5.86,5.0,75,0.08,19,0,13,2534,9,357,No,0
+E2148,39,Male,Master,2,New York,Customer Support,Support Executive,Full-Time,1,Night,Hybrid,0,12,7.96,4.7,94,0.03,18,0,31,3716,11,986,No,0
+E2149,39,Male,Bachelor,0,Dallas,Customer Support,Senior Support Agent,Full-Time,37,Day,Remote,2,16,7.22,4.0,90,0.25,9,0,5,3032,11,443,No,0
+E2150,40,Female,Bachelor,3,Chicago,Customer Support,Support Executive,Full-Time,22,Day,Remote,0,23,5.36,3.4,63,0.08,16,3,38,3410,4,127,No,0
+E2151,22,Male,Master,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,6,Night,Remote,0,57,5.77,4.7,96,0.15,12,3,9,4140,15,690,No,0
+E2152,22,Male,Master,2,New York,Customer Support,Support Executive,Full-Time,21,Rotational,Onsite,1,7,8.78,4.2,76,0.02,12,3,6,3989,0,404,Yes,0
+E2153,36,Male,Bachelor,2,Dallas,Customer Support,Senior Support Agent,Full-Time,32,Rotational,Onsite,1,49,9.3,4.6,98,0.21,6,2,25,4576,8,391,No,1
+E2154,26,Female,Diploma,1,New York,Customer Support,Senior Support Agent,Full-Time,35,Rotational,Onsite,0,26,7.81,3.4,85,0.11,26,0,33,3177,11,192,No,0
+E2155,33,Female,Bachelor,1,Dallas,Customer Support,Support Executive,Full-Time,15,Day,Remote,2,44,6.68,5.0,98,0.23,9,0,29,2404,4,603,Yes,1
+E2156,36,Female,High School,0,Atlanta,Customer Support,Support Executive,Full-Time,5,Day,Onsite,1,22,6.34,4.7,63,0.13,1,3,35,4887,19,880,Yes,0
+E2157,37,Male,Diploma,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,56,Night,Remote,2,45,7.82,4.0,89,0.07,3,0,20,3172,2,742,Yes,0
+E2158,32,Female,Diploma,3,Chicago,Customer Support,Team Lead,Full-Time,46,Rotational,Onsite,1,7,7.11,4.8,89,0.16,24,0,16,2888,4,77,Yes,0
+E2159,39,Male,Diploma,1,Dallas,Customer Support,Support Executive,Full-Time,50,Night,Hybrid,1,7,4.58,3.1,81,0.05,5,1,32,2421,1,84,No,0
+E2160,39,Male,Diploma,3,Dallas,Customer Support,Team Lead,Full-Time,48,Day,Remote,2,58,8.55,2.3,70,0.14,23,0,9,3641,13,29,No,0
+E2161,40,Female,Diploma,3,Chicago,Customer Support,Support Executive,Full-Time,6,Rotational,Remote,1,25,9.02,3.8,61,0.1,17,1,11,2471,1,724,No,0
+E2162,37,Male,Bachelor,1,Chicago,Customer Support,Support Executive,Full-Time,25,Rotational,Onsite,1,46,8.11,3.4,71,0.27,22,0,15,4940,12,48,No,0
+E2163,23,Male,Bachelor,1,Dallas,Customer Support,Support Executive,Full-Time,56,Day,Onsite,2,58,5.36,3.3,89,0.03,5,2,31,2546,6,776,Yes,0
+E2164,20,Male,High School,1,Chicago,Customer Support,Support Executive,Full-Time,46,Rotational,Hybrid,1,12,6.04,4.7,95,0.21,28,3,14,2630,9,144,No,0
+E2165,37,Female,High School,1,Atlanta,Customer Support,Team Lead,Full-Time,59,Day,Remote,1,38,4.21,3.7,77,0.06,29,1,26,3037,12,68,No,0
+E2166,20,Male,High School,2,New York,Customer Support,Support Executive,Full-Time,56,Rotational,Remote,1,36,9.39,3.8,85,0.1,24,3,27,4825,15,57,Yes,0
+E2167,32,Male,Bachelor,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,40,Day,Remote,2,48,6.46,3.2,66,0.13,22,1,16,3829,13,696,No,0
+E2168,39,Female,Diploma,2,Chicago,Customer Support,Senior Support Agent,Full-Time,29,Night,Hybrid,0,27,10.5,4.4,60,0.27,16,1,1,2363,10,573,No,1
+E2169,39,Male,Bachelor,2,Dallas,Customer Support,Team Lead,Full-Time,7,Rotational,Onsite,2,24,9.93,4.2,85,0.08,13,1,35,4166,9,478,No,0
+E2170,42,Male,High School,0,Dallas,Customer Support,Support Executive,Full-Time,40,Day,Hybrid,0,15,5.64,4.4,82,0.04,23,2,6,2545,5,819,No,0
+E2171,29,Female,High School,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,13,Night,Remote,1,54,5.94,3.0,85,0.1,10,0,12,4569,3,444,Yes,0
+E2172,30,Male,Bachelor,1,Dallas,Customer Support,Team Lead,Full-Time,38,Day,Onsite,0,1,7.7,4.8,65,0.04,25,1,14,2633,0,295,Yes,0
+E2173,28,Male,Bachelor,3,Chicago,Customer Support,Support Executive,Full-Time,18,Day,Remote,2,53,4.37,5.0,65,0.05,18,2,24,3936,6,677,Yes,0
+E2174,28,Male,Diploma,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,2,Day,Onsite,2,17,6.34,4.3,67,0.18,29,1,22,3680,8,170,Yes,0
+E2175,24,Male,Diploma,0,Dallas,Customer Support,Senior Support Agent,Full-Time,8,Night,Hybrid,1,16,6.19,2.7,83,0.03,1,0,21,2962,7,574,Yes,0
+E2176,20,Male,High School,1,New York,Customer Support,Team Lead,Full-Time,11,Day,Remote,0,29,9.78,2.7,81,0.02,27,1,25,2882,4,146,No,0
+E2177,36,Female,Bachelor,3,New York,Customer Support,Support Executive,Full-Time,33,Rotational,Remote,1,38,7.24,3.1,78,0.22,2,2,32,4827,18,483,No,1
+E2178,41,Female,Diploma,3,Chicago,Customer Support,Support Executive,Full-Time,54,Day,Onsite,1,12,6.57,2.9,96,0.11,10,0,10,2870,9,305,Yes,0
+E2179,21,Female,Diploma,2,Dallas,Customer Support,Senior Support Agent,Full-Time,38,Day,Hybrid,2,31,6.05,3.4,77,0.05,5,2,9,2515,10,672,Yes,0
+E2180,43,Female,High School,3,Chicago,Customer Support,Senior Support Agent,Part-Time,48,Rotational,Onsite,0,49,8.34,4.1,90,0.08,28,0,24,4985,14,652,Yes,0
+E2181,32,Male,Bachelor,2,Atlanta,Customer Support,Senior Support Agent,Part-Time,27,Rotational,Hybrid,0,28,6.25,3.8,96,0.2,13,0,36,3420,5,845,No,0
+E2182,28,Male,High School,2,New York,Customer Support,Support Executive,Full-Time,20,Night,Onsite,0,45,6.92,3.7,89,0.09,18,3,37,2865,14,608,Yes,0
+E2183,23,Male,Diploma,1,Atlanta,Customer Support,Team Lead,Part-Time,12,Rotational,Onsite,0,29,6.04,3.3,92,0.15,25,3,23,4153,4,445,No,0
+E2184,24,Male,Diploma,1,Dallas,Customer Support,Team Lead,Full-Time,43,Day,Onsite,1,17,4.72,3.4,69,0.05,15,3,39,3108,18,220,No,0
+E2185,30,Male,Bachelor,0,Chicago,Customer Support,Support Executive,Full-Time,31,Day,Onsite,1,12,5.51,4.3,96,0.18,20,0,32,2213,18,554,No,0
+E2186,43,Female,Bachelor,1,Chicago,Customer Support,Team Lead,Part-Time,27,Rotational,Onsite,2,42,6.25,1.5,71,0.1,21,1,16,4897,9,944,No,1
+E2187,38,Female,Diploma,1,Chicago,Customer Support,Senior Support Agent,Part-Time,32,Night,Remote,1,20,6.61,3.5,89,0.19,23,2,23,4244,11,803,Yes,0
+E2188,40,Male,Bachelor,2,Atlanta,Customer Support,Team Lead,Full-Time,10,Day,Onsite,1,29,6.67,3.8,86,0.24,6,2,36,2018,3,377,No,1
+E2189,22,Male,High School,1,New York,Customer Support,Team Lead,Full-Time,3,Rotational,Hybrid,2,20,6.87,4.3,98,0.19,29,2,1,2641,17,619,No,1
+E2190,31,Male,Diploma,2,Atlanta,Customer Support,Team Lead,Full-Time,45,Night,Hybrid,2,47,6.27,2.5,68,0.1,26,3,31,3104,15,265,Yes,1
+E2191,38,Female,High School,2,Atlanta,Customer Support,Senior Support Agent,Full-Time,27,Day,Hybrid,2,54,9.02,2.4,80,0.08,7,0,23,2329,7,94,No,1
+E2192,38,Male,Diploma,1,Dallas,Customer Support,Support Executive,Full-Time,35,Day,Onsite,1,16,8.42,4.1,71,0.1,18,3,8,2865,3,261,No,0
+E2193,32,Male,Diploma,0,Dallas,Customer Support,Senior Support Agent,Full-Time,31,Day,Remote,1,39,6.8,1.6,88,0.06,19,1,3,2773,11,824,No,0
+E2194,26,Male,Master,0,Dallas,Customer Support,Support Executive,Full-Time,15,Rotational,Remote,2,18,7.38,4.8,92,0.06,15,0,16,2391,1,896,Yes,0
+E2195,34,Female,High School,3,New York,Customer Support,Support Executive,Part-Time,16,Night,Onsite,2,51,6.44,3.7,74,0.24,21,2,16,2636,3,70,No,1
+E2196,42,Male,Diploma,3,New York,Customer Support,Support Executive,Full-Time,13,Rotational,Onsite,2,14,2.73,5.0,61,0.12,26,3,29,4354,4,953,No,0
+E2197,26,Female,Diploma,1,Dallas,Customer Support,Team Lead,Part-Time,49,Night,Remote,1,8,7.03,2.4,98,0.14,6,3,39,4942,2,218,Yes,0
+E2198,27,Female,Master,0,Dallas,Customer Support,Team Lead,Part-Time,35,Day,Remote,1,51,7.46,3.1,77,0.18,8,1,10,4699,8,532,Yes,0
+E2199,24,Female,Bachelor,2,New York,Customer Support,Support Executive,Full-Time,52,Day,Onsite,0,9,4.58,1.1,62,0.18,12,1,20,4888,17,91,No,0

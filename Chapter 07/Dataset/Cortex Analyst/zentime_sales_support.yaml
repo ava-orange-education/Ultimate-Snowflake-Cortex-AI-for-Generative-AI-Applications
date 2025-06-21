@@ -1,0 +1,403 @@
+name: zentime_sales_support
+description: Zentime Sales & Support data
+tables:
+  - name: ZENTIME_ACCESSORY_SALES
+    base_table:
+      database: CORTEX_AI_DB
+      schema: PUBLIC
+      table: ZENTIME_ACCESSORY_SALES
+    dimensions:
+      - name: ORDER_NUMBER
+        expr: ORDER_NUMBER
+        data_type: VARCHAR(16777216)
+        description: Unique identifier for each sales order.
+        sample_values:
+          - ORD10531
+          - ORD10500
+          - ORD10584
+        synonyms:
+          - order_id
+          - purchase_number
+          - transaction_number
+          - invoice_number
+          - sales_order_id
+          - purchase_order_number
+      - name: CUSTOMER_ID
+        expr: CUSTOMER_ID
+        data_type: VARCHAR(16777216)
+        description: Unique identifier for the customer who made the accessory purchase.
+        sample_values:
+          - CUST1221
+          - CUST1058
+          - CUST1097
+        synonyms:
+          - client_id
+          - customer_number
+          - account_id
+          - user_id
+          - buyer_id
+          - patron_id
+      - name: ACCESSORY_ID
+        expr: ACCESSORY_ID
+        data_type: VARCHAR(16777216)
+        description: Unique identifier for an accessory item.
+        sample_values:
+          - AC007
+          - AC011
+          - AC003
+        synonyms:
+          - accessory_code
+          - product_id
+          - item_number
+          - accessory_key
+          - product_identifier
+          - item_code
+      - name: ACCESSORY_NAME
+        expr: ACCESSORY_NAME
+        data_type: VARCHAR(16777216)
+        description: The type of accessory sold, such as a watch band or gift box, that is associated with a ZenTime product.
+        sample_values:
+          - ZenTime Metal Band
+          - ZenTime Premium Gift Box
+          - ZenTime Nylon Sport Loop
+        synonyms:
+          - accessory_title
+          - product_name
+          - item_description
+          - accessory_label
+          - product_label
+          - item_name
+    time_dimensions:
+      - name: PURCHASE_DATE
+        expr: PURCHASE_DATE
+        data_type: DATE
+        description: Date on which the accessory was purchased.
+        sample_values:
+          - '2025-01-03'
+          - '2025-03-26'
+          - '2025-01-28'
+        synonyms:
+          - order_date
+          - transaction_date
+          - sale_date
+          - date_of_purchase
+          - acquisition_date
+          - buy_date
+    facts:
+      - name: PRICE
+        expr: PRICE
+        data_type: FLOAT
+        description: The price of each accessory sold.
+        sample_values:
+          - '34.99'
+          - '69.99'
+          - '59.99'
+        synonyms:
+          - cost
+          - amount
+          - charge
+          - rate
+          - value
+          - fee
+          - tariff
+          - list_price
+          - original_price
+          - base_price
+          
+      - name: DISCOUNT
+        expr: DISCOUNT
+        data_type: NUMBER(38,0)
+        description: The percentage discount applied to the sale of an accessory.
+        sample_values:
+          - '11'
+          - '0'
+          - '7'
+        synonyms:
+          - rebate
+          - markdown
+          - price_reduction
+          - discount_amount
+          - price_cut
+          - savings
+          - concession
+          - price_discount
+      - name: FINAL_PRICE
+        expr: FINAL_PRICE
+        data_type: FLOAT
+        description: The final price at which the accessory was sold, representing the total amount paid by the customer after any discounts or promotions have been applied
+        sample_values:
+          - '62.29'
+          - '55.79'
+          - '45.49'
+        synonyms:
+          - total_cost
+          - sale_price
+          - amount_paid
+          - purchase_price
+          - transaction_amount
+          - net_price
+          - paid_amount
+          - sales_amount
+          - sold_for_amount
+  - name: ZENTIME_PRODUCT_MASTER
+    base_table:
+      database: CORTEX_AI_DB
+      schema: PUBLIC
+      table: ZENTIME_PRODUCT_MASTER
+    dimensions:
+      - name: MODEL_ID
+        expr: MODEL_ID
+        data_type: VARCHAR(16777216)
+        description: Unique identifier for a product model.
+        sample_values:
+          - ZT003
+          - AC001
+          - ZT001
+        synonyms:
+          - product_id
+          - model_number
+          - product_code
+          - item_id
+          - identifier
+      - name: MODEL_NAME
+        expr: MODEL_NAME
+        data_type: VARCHAR(16777216)
+        description: The name of the product offered by ZenTime.
+        sample_values:
+          - ZenTime Sports
+          - ZenTime Screen Protector (3-pack)
+          - ZenTime Lite
+        synonyms:
+          - product_name
+          - model_title
+          - device_name
+          - product_title
+          - item_name
+          - product_description
+          - model_description
+      - name: TYPE
+        expr: TYPE
+        data_type: VARCHAR(16777216)
+        description: The type of product offered by Zentime, either a wearable device (Smart Watch) or a complementary item (Accessory).
+        sample_values:
+          - Smart Watch
+          - Accessory
+        synonyms:
+          - category
+          - classification
+          - kind
+          - genre
+          - sort
+          - designation
+          - label
+          - classification_type
+      - name: FEATURES
+        expr: FEATURES
+        data_type: VARCHAR(16777216)
+        description: This column stores the key features and specifications of each product in the ZENTIME product master table, providing a detailed description of what each product offers.
+        sample_values:
+          - Heart rate monitor, step counter, sleep tracking, notifications, GPS tracking, 30+ sport modes, water resistant 100m, ECG monitor, blood oxygen sensor, built-in music storage, wireless payments
+          - Heart rate monitor, step counter, sleep tracking, notifications, water resistant
+          - Stainless steel links, adjustable length, fold-over clasp, premium finish
+        synonyms:
+          - attributes
+          - specs
+          - characteristics
+          - properties
+          - details
+          - specs_list
+          - product_details
+          - technical_specs
+          - product_features
+          - feature_list
+    facts:
+      - name: PRICE
+        expr: PRICE
+        data_type: FLOAT
+        description: The price of a product in the Zentime product catalog.
+        sample_values:
+          - '249.99'
+          - '149.99'
+          - '199.99'
+        synonyms:
+          - cost
+          - amount
+          - value
+          - rate
+          - charge
+          - fee
+          - tariff
+          - expense
+  - name: ZENTIME_WATCH_SALES
+    base_table:
+      database: CORTEX_AI_DB
+      schema: PUBLIC
+      table: ZENTIME_WATCH_SALES
+    dimensions:
+      - name: ORDER_NUMBER
+        expr: ORDER_NUMBER
+        data_type: VARCHAR(16777216)
+        description: Unique identifier for each sales order.
+        sample_values:
+          - ORD10213
+          - ORD10181
+          - ORD10076
+        synonyms:
+          - purchase_order
+          - order_id
+          - transaction_number
+          - invoice_number
+          - sales_order
+          - order_reference
+      - name: CUSTOMER_ID
+        expr: CUSTOMER_ID
+        data_type: VARCHAR(16777216)
+        description: Unique identifier for the customer who made the purchase.
+        sample_values:
+          - CUST1002
+          - CUST1066
+          - CUST1003
+        synonyms:
+          - client_id
+          - customer_number
+          - account_id
+          - user_id
+          - buyer_id
+          - patron_id
+      - name: WATCH_MODEL_ID
+        expr: WATCH_MODEL_ID
+        data_type: VARCHAR(16777216)
+        description: Unique identifier for the watch model being sold.
+        sample_values:
+          - ZT004
+          - ZT003
+          - ZT001
+        synonyms:
+          - watch_id
+          - model_number
+          - watch_serial_number
+          - product_id
+          - timepiece_model_id
+          - watch_product_code
+      - name: MODEL_NAME
+        expr: MODEL_NAME
+        data_type: VARCHAR(16777216)
+        description: The model name of the ZenTime watch that was sold.
+        sample_values:
+          - ZenTime Ultra
+          - ZenTime Lite
+          - ZenTime Pro
+        synonyms:
+          - watch_model
+          - product_name
+          - watch_type
+          - timepiece_name
+          - model_description
+      - name: WARRANTY
+        expr: WARRANTY
+        data_type: VARCHAR(16777216)
+        description: The WARRANTY column represents the type of warranty offered with the sale of a ZenTime watch, indicating whether it is a standard 1-year warranty or an extended 2-year warranty.
+        sample_values:
+          - Default 1 Year
+          - Extended 2 Years
+        synonyms:
+          - guarantee
+          - assurance
+          - protection_plan
+          - service_contract
+          - maintenance_agreement
+    time_dimensions:
+      - name: PURCHASE_DATE
+        expr: PURCHASE_DATE
+        data_type: DATE
+        description: Date on which the ZenTime watch was purchased.
+        sample_values:
+          - '2025-01-03'
+          - '2025-03-26'
+          - '2025-01-28'
+        synonyms:
+          - sale_date
+          - transaction_date
+          - order_date
+          - date_of_purchase
+          - acquisition_date
+          - buy_date
+    facts:
+      - name: PRICE
+        expr: PRICE
+        data_type: FLOAT
+        description: The price of each ZenTime watch sold.
+        sample_values:
+          - '249.99'
+          - '149.99'
+          - '349.99'
+        synonyms:
+          - cost
+          - amount
+          - value
+          - charge
+          - rate
+          - fee
+          - selling_price
+          - list_price
+          - original_price
+          - base_price
+      - name: ADDITIONAL_WARRANTY
+        expr: ADDITIONAL_WARRANTY
+        data_type: FLOAT
+        description: The amount charged to the customer for an extended warranty on a timepiece, if purchased.
+        sample_values:
+          - '0'
+          - '69.99'
+          - '29.99'
+        synonyms:
+          - extended_warranty
+          - warranty_extension
+          - warranty_upgrade
+          - additional_coverage
+          - supplemental_warranty
+          - warranty_addon
+      - name: DISCOUNT
+        expr: DISCOUNT
+        data_type: NUMBER(38,0)
+        description: The percentage discount applied to the sale of a watch.
+        sample_values:
+          - '4'
+          - '5'
+          - '3'
+        synonyms:
+          - rebate
+          - markdown
+          - price_reduction
+          - discount_amount
+          - price_cut
+          - savings
+          - concession
+          - price_discount
+      - name: FINAL_PRICE
+        expr: FINAL_PRICE
+        data_type: FLOAT
+        description: The final price at which a ZenTime watch was sold.
+        sample_values:
+          - '409.48'
+          - '209.98'
+          - '142.49'
+        synonyms:
+          - total_cost
+          - sale_price
+          - purchase_price
+          - amount_paid
+          - transaction_amount
+          - selling_price
+          - invoice_total
+          - paid_amount
+          - sales_amount
+          - sold_for_amount
+custom_instructions: "Display percentage metrics with % symbol and no decimal places"
+verified_queries:
+  - name: total_ultra_watches_sold
+    question: What is the total number of ZenTime Ultra watches sold in 2025 so far?
+    use_as_onboarding_question: false
+    sql: SELECT COUNT(*) AS total_ultra_watches_sold FROM zentime_watch_sales WHERE model_name = 'ZenTime Ultra' AND purchase_date >= '2025-01-01' AND purchase_date <= '2025-03-21'
+    verified_by: STREAMLIT
+    verified_at: 1742538852
